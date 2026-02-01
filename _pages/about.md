@@ -40,25 +40,43 @@ Google Scholar
 
 # 📝 Publications 
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
+# 📝 Publications
+
+<div class="paper-box">
+  <div class="paper-box-image">
     <div>
       <div class="badge">Automation in Construction 2026</div>
-      <img src='images/AIC26.png' alt="Post-earthquake structural damage assessment" width="100%">
+      <img src="/images/AIC26.png" alt="Post-earthquake structural damage assessment" width="100%">
     </div>
   </div>
 
-  <div class='paper-box-text' markdown="1">
+  <div class="paper-box-text">
 
-[Multitask Unified Large Vision-Language Model for Post-Earthquake Structural Damage Assessment of Buildings](https://doi.org/10.1016/j.autcon.2025.106720)
+    <p>
+      <a href="https://doi.org/10.1016/j.autcon.2025.106720">
+        Multitask Unified Large Vision-Language Model for Post-Earthquake Structural Damage Assessment of Buildings
+      </a>
+    </p>
 
-**Yongqing Jiang**, Jianze Wang, Xinyi Shen, Kaoshan Dai, Qingzi Ge
+    <p>
+      <strong>Yongqing Jiang</strong>, Jianze Wang, Xinyi Shen,a, Kaoshan Dai, Qingzi Ge
+    </p>
 
-[**Project**](https://doi.org/10.1016/j.autcon.2025.106720)
-- We develop a multitask unified vision-language model for post-earthquake structural damage assessment, supported by instruction-based multi-task learning, a two-stage assessment framework, and a large-scale multi-attribute image–text dataset.
+    <p>
+      <a href="https://doi.org/10.1016/j.autcon.2025.106720"><strong>Project</strong></a>
+    </p>
+
+    <ul>
+      <li>
+        We develop a multitask unified vision-language model for post-earthquake structural damage assessment,
+        supported by instruction-based multi-task learning, a two-stage assessment framework,
+        and a large-scale multi-attribute image–text dataset.
+      </li>
+    </ul>
 
   </div>
 </div>
+
 
 # 🎖 Honors and Awards
 - *2022.10* National Scholarship by Ministry of Education of China (Top 1%).
