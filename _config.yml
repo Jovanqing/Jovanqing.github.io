@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yongqing Jiang"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
+description              : "SCU–NTU @ Joint PhD Student"
 repository               : "Jovanqing/Jovanqing.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yongqing Jiang(江永清)"
   avatar           : "images/Yongqing.png"
-  bio              : "SCU-NTU Joint PhD Student | Research Interests: AI & Data Science, Large language Models, Structural Health Monitoring, Deep Learning"
+  bio              : "Major in Civil Engineering & Computer Science | Focus on AI-driven Intelligent Infrastructure"
   location         : "Singapore"
   employer         :
   pubmed           : 
