@@ -108,8 +108,7 @@ Note: I am currently open to academic opportunities. Please feel free to contact
 
     <ul>
       <li>
-        We propose a multi-task learning framework for unified visual perception in post-earthquake damage assessment, 
-        integrating structural component recognition and damage state classification into a single efficient pipeline.
+        We developed SDA-Chat, a multimodal Large Language Model (LLM) that automates professional post-earthquake structural damage assessment through multi-round vision-language interactions, achieving 83.04% accuracy with high inference efficiency.
       </li>
     </ul>
 
@@ -143,8 +142,7 @@ Note: I am currently open to academic opportunities. Please feel free to contact
 
     <ul>
       <li>
-        We propose a multi-task learning framework for unified visual perception in post-earthquake damage assessment, 
-        integrating structural component recognition and damage state classification into a single efficient pipeline.
+        We propose a vision-based framework leveraging machine learning to infer Peak Floor Acceleration (PFA) ranges from the seismic responses of unanchored non-structural components, providing a cost-effective alternative to traditional monitoring with 84%–94% accuracy.
       </li>
     </ul>
 
@@ -177,8 +175,7 @@ Note: I am currently open to academic opportunities. Please feel free to contact
 
     <ul>
       <li>
-        We propose a multi-task learning framework for unified visual perception in post-earthquake damage assessment, 
-        integrating structural component recognition and damage state classification into a single efficient pipeline.
+        We developed TPViT-DMSR, a customized two-pathway vision transformer designed to recognize the seismic damage states of freestanding non-structural components through video analysis, achieving a mean average precision of 74.87%.
       </li>
     </ul>
 
@@ -211,8 +208,7 @@ Note: I am currently open to academic opportunities. Please feel free to contact
 
     <ul>
       <li>
-        We propose a multi-task learning framework for unified visual perception in post-earthquake damage assessment, 
-        integrating structural component recognition and damage state classification into a single efficient pipeline.
+        We developed TPViT-DMSR, a customized two-pathway vision transformer that leverages video-comprehension and trajectory attention to recognize the seismic damage states of freestanding non-structural components with a 74.87% mean average precision.
       </li>
     </ul>
 
@@ -245,8 +241,7 @@ Note: I am currently open to academic opportunities. Please feel free to contact
 
     <ul>
       <li>
-        We propose a multi-task learning framework for unified visual perception in post-earthquake damage assessment, 
-        integrating structural component recognition and damage state classification into a single efficient pipeline.
+        We developed a CNN-based framework for automated concrete defect detection and sensor-free geographical localization, leveraging projection loss and feature vectorization to achieve pixel-level precision and 83.69% localization accuracy.
       </li>
     </ul>
 
@@ -279,8 +274,7 @@ Note: I am currently open to academic opportunities. Please feel free to contact
 
     <ul>
       <li>
-        We propose a multi-task learning framework for unified visual perception in post-earthquake damage assessment, 
-        integrating structural component recognition and damage state classification into a single efficient pipeline.
+        We developed a novel deep-learning framework integrating ACN-BiLSTM and DRRNet to provide generalized and efficient estimations of nonlinear floor response spectra with 97.29% accuracy, significantly advancing the seismic design and safety of non-structural components.
       </li>
     </ul>
 
