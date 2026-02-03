@@ -81,43 +81,35 @@ Note: I am currently open to academic opportunities. Please feel free to contact
   </div>
 </div>
 
-<div class="paper-box" style="position: relative; overflow: hidden; border: 1px solid #eee; border-radius: 8px; margin-bottom: 25px; display: flex;">
-  
-  <div style="position: absolute; top: 15px; right: -35px; background: #8e44ad; color: white; padding: 5px 40px; transform: rotate(45deg); font-size: 11px; font-weight: bold; z-index: 10; box-shadow: 0 2px 5px rgba(0,0,0,0.2); letter-spacing: 0.5px; text-transform: uppercase;">
-    Featured Cover
-  </div>
-
-  <div class="paper-box-image" style="flex: 0 0 220px; position: relative;">
+<div class="paper-box">
+  <div class="paper-box-image">
     <div>
-      <div class="badge" style="background-color: #2c3e50;">CACAIE 2025</div>
-      <img src="/images/CACAIE.gif" alt="Featured Cover Visualization" width="100%" style="display: block;">
+      <div class="badge">Computer-Aided Civil and Infrastructure Engineering 2025</div>
+      <div class="badge" style="background-color: #f39c12; top: 32px;">🔥 Featured Cover</div>
+      <img src="/images/CACAIE.gif" alt="Large language model for post-earthquake structural damage assessment of buildings" width="100%">
     </div>
   </div>
 
-  <div class="paper-box-text" style="flex: 1; padding: 15px;">
+  <div class="paper-box-text">
 
-    <p style="margin-bottom: 8px;">
-      <a href="https://doi.org/10.1111/mice.70010" target="_blank" style="text-decoration: none;">
-        <span style="color: #8e44ad;"><strong>[Featured Cover Paper]</strong></span><br>
-        <strong>Large language model for post-earthquake structural damage assessment of buildings</strong>
+    <p>
+      <a href="https://doi.org/10.1111/mice.70010">
+        Large language model for post-earthquake structural damage assessment of buildings
       </a>
     </p>
 
-    <p style="font-size: 0.95em; margin-bottom: 8px;">
+    <p>
       <strong>Yongqing Jiang</strong>, Xinyi Shen, Jianze Wang, Kaoshan Dai
     </p>
 
-    <p style="font-size: 0.9em; margin-bottom: 10px;">
-      <a href="https://doi.org/10.1111/mice.70010" target="_blank"><strong>Project</strong></a> | 
-      <a href="https://doi.org/10.1111/mice.70010" target="_blank"><strong>Paper</strong></a>
+    <p>
+      <a href="https://doi.org/10.1111/mice.70010"><strong>Project</strong></a>
     </p>
 
-    <ul style="font-size: 0.9em; line-height: 1.5; padding-left: 18px; color: #444;">
+    <ul>
       <li>
-        This study, recommended by Editor-in-Chief <strong>Prof. Hojjat Adeli</strong>, introduces a pioneering LLM-based framework for automated post-earthquake damage assessment.
-      </li>
-      <li>
-        We integrate structural component recognition and damage state classification into a unified, efficient visual-language pipeline.
+        We propose a multi-task learning framework for unified visual perception in post-earthquake damage assessment, 
+        integrating structural component recognition and damage state classification into a single efficient pipeline.
       </li>
     </ul>
 

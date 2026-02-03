@@ -325,3 +325,48 @@
 .fa.fa-pull-right {
   margin-left: .3em;
 }
+/* ================================
+   Featured / Badge styles
+   ================================ */
+
+/* 建立定位上下文（关键） */
+.paper-box-image > div {
+  position: relative;
+  display: inline-block;
+}
+
+/* 通用 badge 样式 */
+.badge {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  z-index: 2;
+
+  background: #2c3e50;
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 4px;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+/* Featured / Highlight badge */
+.badge:nth-of-type(2) {
+  background: #f39c12;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  top: 36px;
+  animation: glow 2s ease-in-out infinite;
+}
+
+/* Featured cover image */
+.paper-box-image img {
+  width: 100%;
+  border: 3px solid #f39c12;
+  border-radius: 6px;
+}
+
+/* 呼*
