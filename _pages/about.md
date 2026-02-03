@@ -37,7 +37,7 @@ My publications and citation statistics are available on
 Google Scholar
 </a>
 &nbsp;
-<img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations&cacheSeconds=0&v=451">
+<img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations&cacheSeconds=0&v={{ site.time | date: '%s' }}">
 
 Note: I am currently open to academic opportunities. Please feel free to contact me regarding any available positions.
 
