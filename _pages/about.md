@@ -43,14 +43,14 @@ Note: I am currently open to academic opportunities. Please feel free to contact
 
 # 🔥 News
 - *2026.01*: &nbsp;🎉🎉 Our paper "Large language model for post-earthquake structural damage assessment of buildings" has been selected as the <strong>Featured Cover</strong> of <em>Computer-Aided Civil and Infrastructure Engineering</em>, recommended by Editor-in-Chief <a href="https://scholar.google.com/citations?user=TQMpoh8AAAAJ&hl=zh-CN" target="_blank"><strong>Prof. Hojjat Adeli</strong></a>. 
-- *2025.12*: &nbsp;🎉🎉 Honored to lead our team to win the <strong>National Second Prize</strong> in the <strong><a href="https://cpipc.acge.org.cn/cw/hp/2c90801795a92a850195d03b537b1bac" target="_blank">2025 First China Graduate Intelligent Construction Innovation Competition</strong></a>. 
+- *2025.12*: &nbsp;🎉🎉 Honored to lead our team to win the <strong>National Second Prize</strong> in the <a href="https://cpipc.acge.org.cn/cw/hp/2c90801795a92a850195d03b537b1bac" target="_blank"><strong>2025 First China Graduate Intelligent Construction Innovation Competition</strong></a>. 
 
 # 📝 Selective Publications
 <div class="paper-box">
   <div class="paper-box-image">
     <div>
       <div class="badge">Automation in Construction 2026</div>
-      <img src="/images/AIC.gif" alt="Post-earthquake structural damage assessment" width="100%">
+      <img src="/images/AIC.GIF" alt="Post-earthquake structural damage assessment" width="100%">
     </div>
   </div>
 
@@ -155,7 +155,7 @@ Note: I am currently open to academic opportunities. Please feel free to contact
   <div class="paper-box-image">
     <div>
       <div class="badge">Engineering Structure 2024</div>
-      <img src="/images/ES_video.png" alt="Video comprehension-based approach for seismic damage recognition of freestanding non-structural components" width="100%">
+      <img src="/images/ES_Video.png" alt="Video comprehension-based approach for seismic damage recognition of freestanding non-structural components" width="100%">
     </div>
   </div>
 
