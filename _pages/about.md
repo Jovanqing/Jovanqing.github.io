@@ -328,8 +328,8 @@ Note: I am currently open to academic opportunities. Please feel free to contact
 - *2021* First Prize of Outstanding Graduate Achievement Award in Shandong Province (**Top 3%**).
 
 # 🏆 Competitions
-- *2025* National Second Prize, Inaugural China Graduate Intelligent Construction Innovation Competition (Competition Entry: Intelligent Seismic Damage Identification and Assessment Technology for Buildings) (**Leader**) 
-- *2021* Regional Third Prize (North China) the China Graduate Electronic Design Competition (Competition Entry: Real-time Portable Concrete Defect Detection System based on YOLOv4) (**Leader**)
+- *2025* National Second Prize, <a href="https://cpipc.acge.org.cn/cw/hp/2c90801795a92a850195d03b537b1bac" target="_blank">**Inaugural China Graduate Intelligent Construction Innovation Competition**</a> (Competition Entry: Intelligent Seismic Damage Identification and Assessment Technology for Buildings) (**Leader**) 
+- *2021* Regional Third Prize (North China) <a href="https://cpipc.acge.org.cn/cw/hp/2c90801795a92a850195d03b537b1bac" target="_blank">**the China Graduate Electronic Design Competition**</a> (Competition Entry: Real-time Portable Concrete Defect Detection System based on YOLOv4) (**Leader**)
 
 [//]: # (# 📖 Educations)
 
