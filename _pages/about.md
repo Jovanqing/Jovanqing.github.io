@@ -57,7 +57,7 @@ Note: I am currently open to academic opportunities. Please feel free to contact
   <div class="paper-box-text">
 
     <p>
-      <a href="https://doi.org/10.1016/j.autcon.2025.106720">
+      <a href="https://arxiv.org/abs/2602.07083">
         Rethinking Scientific Modeling: Toward Physically Consistent and Simulation-Executable Programmatic Generation
       </a>
     </p>
