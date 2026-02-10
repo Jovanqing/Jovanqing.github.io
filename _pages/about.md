@@ -49,6 +49,39 @@ Note: I am currently open to academic opportunities. Please feel free to contact
 <div class="paper-box">
   <div class="paper-box-image">
     <div>
+      <div class="badge">Arxiv 2026</div>
+      <img src="/images/CodeLLM.png" alt="Rethinking Scientific Modeling: Toward Physically Consistent and Simulation-Executable Programmatic Generation" width="100%">
+    </div>
+  </div>
+
+  <div class="paper-box-text">
+
+    <p>
+      <a href="https://doi.org/10.1016/j.autcon.2025.106720">
+        Rethinking Scientific Modeling: Toward Physically Consistent and Simulation-Executable Programmatic Generation
+      </a>
+    </p>
+
+    <p>
+      <strong>Yongqing Jiang</strong>, Jianze Wang, Zhiqi Shen, Kaoshan Dai, Haoran Luo
+    </p>
+
+    <p>
+      <a href="https://arxiv.org/abs/2602.07083"><strong>Project</strong></a>
+    </p>
+
+    <ul>
+      <li>
+        The Problem: LLMs often struggle with the "physical common sense" required for structural engineering, producing code that looks right but fails in simulation. The Solution: I developed a framework that enforces structural dynamics consistency through CivilInstruct (a domain-specific dataset) and MBEval (a verification-driven benchmark). Impact: This approach ensures simulation-ready code generation, bridging the gap between high-level AI and stringent engineering constraints.
+      </li>
+    </ul>
+
+  </div>
+</div>
+
+<div class="paper-box">
+  <div class="paper-box-image">
+    <div>
       <div class="badge">Automation in Construction 2026</div>
       <img src="/images/AIC.GIF" alt="Post-earthquake structural damage assessment" width="100%">
     </div>
@@ -63,7 +96,7 @@ Note: I am currently open to academic opportunities. Please feel free to contact
     </p>
 
     <p>
-      <strong>Yongqing Jiang</strong>, Jianze Wang, Xinyi Shen,a, Kaoshan Dai, Qingzi Ge
+      <strong>Yongqing Jiang</strong>, Jianze Wang, Xinyi Shen, Kaoshan Dai, Qingzi Ge
     </p>
 
     <p>

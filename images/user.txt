@@ -1,0 +1,7 @@
+(1) git status
+
+(2) git add .
+
+(3) git commit -m "Update research interests and add CivilInstruct publication"
+
+(4) git push origin main
