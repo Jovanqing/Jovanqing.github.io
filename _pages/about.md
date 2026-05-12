@@ -199,7 +199,18 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
   <div class="paper-box-image">
     <div>
       <div class="badge">Engineering Structure 2024</div>
-      <img src="/images/ES_Video.png" alt="Video comprehension-based approach for seismic damage recognition of freestanding non-structural components" width="100%">
+      <div class="paper-video-grid">
+        <video class="paper-video" autoplay loop muted playsinline preload="metadata"
+               poster="/images/ES_Video.png"
+               aria-label="Seismic damage recognition demo (clip 1)">
+          <source src="/images/ES_Video_1.mp4" type="video/mp4">
+        </video>
+        <video class="paper-video" autoplay loop muted playsinline preload="metadata"
+               poster="/images/ES_Video.png"
+               aria-label="Seismic damage recognition demo (clip 2)">
+          <source src="/images/ES_Video_2.mp4" type="video/mp4">
+        </video>
+      </div>
     </div>
   </div>
 

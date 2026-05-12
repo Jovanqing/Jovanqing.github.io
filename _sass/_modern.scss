@@ -366,6 +366,31 @@ html, body {
   transform: scale(1.02);
 }
 
+/* Two-up auto-play videos inside a paper card */
+.paper-video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  width: 100%;
+}
+.paper-video-grid .paper-video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  background: var(--bg-subtle);
+  object-fit: cover;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.paper-box:hover .paper-video-grid .paper-video {
+  transform: scale(1.015);
+  box-shadow: var(--shadow-md);
+}
+@media (max-width: 600px) {
+  .paper-video-grid { grid-template-columns: 1fr; }
+}
+
 /* Badge - pill style */
 .paper-box .badge {
   position: absolute;
