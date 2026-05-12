@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ClustrMaps</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: transparent;
+      overflow: hidden;
+      text-align: center;
+    }
+    /* The widget injects an <a> wrapping an <img>; constrain to the iframe size. */
+    body > a,
+    body > img,
+    body img {
+      max-width: 100% !important;
+      height: auto !important;
+      display: inline-block !important;
+      border: 0 !important;
+    }
+    /* Hide the date-range header text the widget prints first */
+    body { font-size: 11px; color: #999; font-family: system-ui, sans-serif; }
+  </style>
+</head>
+<body>
+  <script type="text/javascript" id="clustrmaps"
+    src="//clustrmaps.com/map_v2.js?d=TEkAEEg2ggub9J3Rlv-xpwasnPS00fxPIGPl3Dutw1Q&cl=ffffff&w=a"></script>
+</body>
+</html>

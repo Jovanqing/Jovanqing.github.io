@@ -8,42 +8,52 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@main/" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/main/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
 # 👤 About Me
 
-Hi! I’m Yongqing Jiang, a joint PhD student at **Sichuan University (SCU)** and **Nanyang Technological University (NTU)**, under the supervision of <a href="https://acem.scu.edu.cn/info/1282/10761.htm" target="_blank">**Prof. Kaoshan Dai**</a> and Prof <a href="https://dr.ntu.edu.sg/entities/person/Shen-Zhiqi">**Prof. Zhiqi Shen**</a>.
+Hi! I’m Yongqing Jiang, a joint PhD student at **Sichuan University (SCU)** and **Nanyang Technological University (NTU)**, under the supervision of <a href="https://acem.scu.edu.cn/info/1282/10761.htm" target="_blank">**Prof. Kaoshan Dai**</a> and <a href="https://dr.ntu.edu.sg/entities/person/Shen-Zhiqi" target="_blank">**Prof. Zhiqi Shen**</a>.
 My research resides at the intersection of **_Civil Engineering_** and **_Computer Science_**.
 Prior to my doctoral studies at SCU, I gained significant research experience at the <a href="https://www-443.webvpn.sdjzu.edu.cn/xdxy/szdsys/sysjj.htm" target="_blank">**Shandong Key Laboratory of Intelligent Building Technology**</a>.
 
-My research interest focuses on applying artificial intelligence and deep learning to intelligent 
+My research interest focuses on applying artificial intelligence and deep learning to intelligent
 infrastructure systems, which can be divided as follows:
 - Structural Health Monitoring (SHM).
 - AI and Data Science in Engineering.
 - Large Language Models (LLMs) & Vision-Language Models (VLMs).
 - Intelligent and Resilient Infrastructures.
 
-Email: <a href="https://www-443.webvpn.sdjzu.edu.cn/xdxy/szdsys/sysjj.htm" target="_blank">yongqingjiang97@gmail.com</a>
+Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
 
-My publications and citation statistics are available on 
-<a href="https://scholar.google.com/citations?hl=zh-CN&user=WmV_Z7UAAAAJ">
-Google Scholar
-</a>
-&nbsp;
-<img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations&cacheSeconds=0&v={{ site.time | date: '%s' }}">
+> Note: I am currently open to academic opportunities. Please feel free to contact me regarding any available positions.
 
-Note: I am currently open to academic opportunities. Please feel free to contact me regarding any available positions.
+<div id="scholar-card" class="scholar-card" role="region" aria-label="Google Scholar statistics">
+  <div class="scholar-card__cell">
+    <div class="scholar-card__label">Total Citations</div>
+    <div class="scholar-card__value is-loading" id="gs-total-citations">—</div>
+  </div>
+  <div class="scholar-card__cell">
+    <div class="scholar-card__label">h-index</div>
+    <div class="scholar-card__value is-loading" id="gs-h-index">—</div>
+  </div>
+  <div class="scholar-card__cell">
+    <div class="scholar-card__label">i10-index</div>
+    <div class="scholar-card__value is-loading" id="gs-i10-index">—</div>
+  </div>
+</div>
+<div class="scholar-card__meta">
+  <a href="https://scholar.google.com/citations?user=WmV_Z7UAAAAJ&hl=zh-CN" target="_blank">View on Google Scholar →</a>
+  <span class="dot"></span>
+  <span>Auto-updated every 6 hours</span>
+  <span class="dot"></span>
+  <span>Last sync: <span id="gs-updated">—</span></span>
+</div>
 
 # 🔥 News
-- *2026.01*: &nbsp;🎉🎉 Our paper "Large language model for post-earthquake structural damage assessment of buildings" has been selected as the <strong>Featured Cover</strong> of <em>Computer-Aided Civil and Infrastructure Engineering</em>, recommended by Editor-in-Chief <a href="https://scholar.google.com/citations?user=TQMpoh8AAAAJ&hl=zh-CN" target="_blank"><strong>Prof. Hojjat Adeli</strong></a>. 
-- *2025.12*: &nbsp;🎉🎉 Honored to lead our team to win the <strong>National Second Prize</strong> in the <a href="https://cpipc.acge.org.cn/cw/hp/2c90801795a92a850195d03b537b1bac" target="_blank"><strong>2025 First China Graduate Intelligent Construction Innovation Competition</strong></a>. 
+<ul class="timeline-list">
+  <li><em>2026.01</em> 🎉🎉 Our paper "Large language model for post-earthquake structural damage assessment of buildings" has been selected as the <strong>Featured Cover</strong> of <em>Computer-Aided Civil and Infrastructure Engineering</em>, recommended by Editor-in-Chief <a href="https://scholar.google.com/citations?user=TQMpoh8AAAAJ&hl=zh-CN" target="_blank"><strong>Prof. Hojjat Adeli</strong></a>.</li>
+  <li><em>2025.12</em> 🎉🎉 Honored to lead our team to win the <strong>National Second Prize</strong> in the <a href="https://cpipc.acge.org.cn/cw/hp/2c90801795a92a850195d03b537b1bac" target="_blank"><strong>2025 First China Graduate Intelligent Construction Innovation Competition</strong></a>.</li>
+</ul>
 
 # 📝 Selective Publications
 <div class="paper-box">
@@ -351,38 +361,46 @@ Note: I am currently open to academic opportunities. Please feel free to contact
 
 
 # 🎖 Honors and Awards
-- *2025* Nominee for the Young Elite Scientist Sponsorship Program (**PhD Student Special Track**)
-- *2025* Sichuan University PhD Innovation Scholarship (**Top 1%**).
-- *2024* Sichuan University PhD Innovation Scholarship (**Top 1%**).
-- *2024* Outstanding Graduate of Sichuan University (**Top 1%**).
-- *2024* Sichuan University First-Class Scholarship (**Ranked 1st in Major**).
-- *2022* National Scholarship by Ministry of Education of China (**Top 1%**).
-- *2021* Outstanding Graduate of Shandong Province (**Top 1%**).
-- *2021* First Prize of Outstanding Graduate Achievement Award in Shandong Province (**Top 3%**).
+<ul class="timeline-list">
+  <li><em>2025</em> Nominee for the Young Elite Scientist Sponsorship Program (<strong>PhD Student Special Track</strong>)</li>
+  <li><em>2025</em> Sichuan University PhD Innovation Scholarship (<strong>Top 1%</strong>)</li>
+  <li><em>2024</em> Sichuan University PhD Innovation Scholarship (<strong>Top 1%</strong>)</li>
+  <li><em>2024</em> Outstanding Graduate of Sichuan University (<strong>Top 1%</strong>)</li>
+  <li><em>2024</em> Sichuan University First-Class Scholarship (<strong>Ranked 1st in Major</strong>)</li>
+  <li><em>2022</em> National Scholarship by Ministry of Education of China (<strong>Top 1%</strong>)</li>
+  <li><em>2021</em> Outstanding Graduate of Shandong Province (<strong>Top 1%</strong>)</li>
+  <li><em>2021</em> First Prize of Outstanding Graduate Achievement Award in Shandong Province (<strong>Top 3%</strong>)</li>
+</ul>
 
 # 🏆 Competitions
-- *2025* National Second Prize, <a href="https://cpipc.acge.org.cn/cw/hp/2c90801795a92a850195d03b537b1bac" target="_blank">**Inaugural China Graduate Intelligent Construction Innovation Competition**</a> (Competition Entry: Intelligent Seismic Damage Identification and Assessment Technology for Buildings) (**Leader**) 
-- *2021* Regional Third Prize (North China) <a href="https://cpipc.acge.org.cn/cw/hp/6" target="_blank">**the China Graduate Electronic Design Competition**</a> (Competition Entry: Real-time Portable Concrete Defect Detection System based on YOLOv4) (**Leader**)
-
-[//]: # (# 📖 Educations)
-
-[//]: # (- *2019.06 - 2022.04 &#40;now&#41;*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
-
-[//]: # (- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. )
+<ul class="timeline-list">
+  <li><em>2025</em> National Second Prize, <a href="https://cpipc.acge.org.cn/cw/hp/2c90801795a92a850195d03b537b1bac" target="_blank"><strong>Inaugural China Graduate Intelligent Construction Innovation Competition</strong></a> — Intelligent Seismic Damage Identification and Assessment Technology for Buildings (<strong>Leader</strong>)</li>
+  <li><em>2021</em> Regional Third Prize (North China), <a href="https://cpipc.acge.org.cn/cw/hp/6" target="_blank"><strong>China Graduate Electronic Design Competition</strong></a> — Real-time Portable Concrete Defect Detection System based on YOLOv4 (<strong>Leader</strong>)</li>
+</ul>
 
 # 💬 Invited Talks
-- *2024.04*, A data-driven approach for estimating peak floor response based on damage of non-structural components." The 4th International Conference on Vulnerability and Risk Analysis and Management (ICVRAM-ISUMA 2024), Tongji University, Shanghai, China.
-- *2023.08*, The 2nd Workshop on Big Data in Civil Engineering." Zhejiang University, Hangzhou, China. 
-- *2023.05*, "The 3rd Academic Conference on Computational and Simulation Technologies in Civil Engineering." Guangxi University, Nanning, China.
+<ul class="timeline-list">
+  <li><em>2024.04</em> "A data-driven approach for estimating peak floor response based on damage of non-structural components." <em>The 4th International Conference on Vulnerability and Risk Analysis and Management (ICVRAM-ISUMA 2024)</em>, Tongji University, Shanghai, China.</li>
+  <li><em>2023.08</em> "The 2nd Workshop on Big Data in Civil Engineering." Zhejiang University, Hangzhou, China.</li>
+  <li><em>2023.05</em> "The 3rd Academic Conference on Computational and Simulation Technologies in Civil Engineering." Guangxi University, Nanning, China.</li>
+</ul>
 
 # 🚀 Projects
-- Intelligent Recognition of Indoor Seismic Damage Characteristics and Building Resilience Assessment Based on Video Understanding (National Natural Science Foundation of China, Young Scientists Fund; **_Key Researcher_**)
-- Mechanisms and Applications of Fiber Bragg Grating–Based Acoustic Emission Sensing for Concrete Durability Damage Monitoring (National Natural Science Foundation of China, General Program; **_Key Researcher_**)
-- Multi-Model Ensemble–Driven Precise Profiling of Office Building Operational States and Integrated Energy-Efficiency Optimization (National Natural Science Foundation of China, General Program; **_Key Researcher_**)
-- Swarm-Intelligence–Based Bio-Inspired Control of Robotic Fish Schools for Navigation in Unknown Aquatic Environments (National Natural Science Foundation of China, General Program; **_Key Researcher_**)
-- Coupled Optimization and Dual Control of Vibration and Wind-Induced Responses for Novel Structural Systems of Ultra-High Wind Power Towers (National Natural Science Foundation of China, General Program; **_Key Researcher_**)
-- Outstanding Young Innovation Team in Artificial Intelligence and Building Intelligence, Shandong Provincial Higher Education Institutions (**_Key Researcher_**)
+<ul class="timeline-list">
+  <li><em>NSFC</em> Intelligent Recognition of Indoor Seismic Damage Characteristics and Building Resilience Assessment Based on Video Understanding — <strong><em>Key Researcher</em></strong></li>
+  <li><em>NSFC</em> Mechanisms and Applications of Fiber Bragg Grating–Based Acoustic Emission Sensing for Concrete Durability Damage Monitoring — <strong><em>Key Researcher</em></strong></li>
+  <li><em>NSFC</em> Multi-Model Ensemble–Driven Precise Profiling of Office Building Operational States and Integrated Energy-Efficiency Optimization — <strong><em>Key Researcher</em></strong></li>
+  <li><em>NSFC</em> Swarm-Intelligence–Based Bio-Inspired Control of Robotic Fish Schools for Navigation in Unknown Aquatic Environments — <strong><em>Key Researcher</em></strong></li>
+  <li><em>NSFC</em> Coupled Optimization and Dual Control of Vibration and Wind-Induced Responses for Novel Structural Systems of Ultra-High Wind Power Towers — <strong><em>Key Researcher</em></strong></li>
+  <li><em>Provincial</em> Outstanding Young Innovation Team in Artificial Intelligence and Building Intelligence, Shandong Provincial Higher Education Institutions — <strong><em>Key Researcher</em></strong></li>
+</ul>
 
-[//]: # (# 💻 Internships)
-
-[//]: # (- *2019.05 - 2020.02*, [Lorem]&#40;https://github.com/&#41;, China.)
+# 🌍 Visitors
+<div class="visitors-strip">
+  <span class="visitors-strip__label">Readers from around the world</span>
+  <iframe class="visitors-strip__frame"
+          src="/assets/clustrmaps.html"
+          title="Visitor map"
+          loading="lazy"
+          scrolling="no"></iframe>
+</div>
