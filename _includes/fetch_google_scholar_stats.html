@@ -23,39 +23,17 @@
         + ' ' + pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes()) + ' UTC';
     }
 
-    function setSourceBadge(source) {
-      var el = document.getElementById('gs-source');
-      if (el) el.textContent = source;
-    }
+    function applyScholar(data) {
+      if (!data || data.citedby == null) return false;
+      setText('gs-total-citations', data.citedby);
+      setText('gs-h-index',          data.hindex);
+      setText('gs-i10-index',        data.i10index);
+      setText('gs-updated',          formatUpdated(data.updated));
 
-    /* 1. OpenAlex first - always reliable, lights up the card immediately. */
-    fetch(openalexUrl, { cache: 'no-store' })
-      .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
-      .then(function (data) {
-        var stats = (data && data.summary_stats) || {};
-        setText('gs-total-citations', data.cited_by_count);
-        setText('gs-h-index',          stats.h_index);
-        setText('gs-i10-index',        stats.i10_index);
-        setText('gs-updated',          formatUpdated(data.updated_date));
-        setSourceBadge('OpenAlex');
-      })
-      .catch(function () { /* OpenAlex unreachable - swallow, Scholar JSON may still load. */ });
+      var totalCitEl = document.getElementById('total_cit');
+      if (totalCitEl) totalCitEl.textContent = data.citedby;
 
-    /* 2. Scholar JSON - if the workflow ever succeeds, overwrite with Scholar's
-          (typically higher) numbers. */
-    fetch(scholarUrl, { cache: 'no-store' })
-      .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
-      .then(function (data) {
-        setText('gs-total-citations', data.citedby);
-        setText('gs-h-index',          data.hindex);
-        setText('gs-i10-index',        data.i10index);
-        setText('gs-updated',          formatUpdated(data.updated));
-        setSourceBadge('Google Scholar');
-
-        var totalCitEl = document.getElementById('total_cit');
-        if (totalCitEl) totalCitEl.textContent = data.citedby;
-
-        if (!data.publications) return;
+      if (data.publications) {
         var nodes = document.getElementsByClassName('show_paper_citations');
         Array.prototype.forEach.call(nodes, function (el) {
           var pubId = el.getAttribute('data');
@@ -64,7 +42,32 @@
             el.textContent = '| Citations: ' + pub.num_citations;
           }
         });
+      }
+      return true;
+    }
+
+    function applyOpenAlex(data) {
+      if (!data) return false;
+      var stats = data.summary_stats || {};
+      setText('gs-total-citations', data.cited_by_count);
+      setText('gs-h-index',          stats.h_index);
+      setText('gs-i10-index',        stats.i10_index);
+      setText('gs-updated',          formatUpdated(data.updated_date));
+      return true;
+    }
+
+    /* Scholar first - it's the source of truth for the displayed numbers.
+       Fall back to OpenAlex only if Scholar's JSON is unreachable / stale. */
+    fetch(scholarUrl, { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+      .then(function (data) {
+        if (!applyScholar(data)) throw new Error('scholar payload empty');
       })
-      .catch(function () { /* Scholar JSON not available yet - OpenAlex result stays. */ });
+      .catch(function () {
+        return fetch(openalexUrl, { cache: 'no-store' })
+          .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+          .then(applyOpenAlex)
+          .catch(function () { /* both failed - leave loading dots */ });
+      });
   })();
 </script>
