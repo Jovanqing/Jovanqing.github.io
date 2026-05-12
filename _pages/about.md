@@ -1,14 +1,17 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
+title: "Yongqing Jiang (江永清) | SCU-NTU Joint PhD — AI for Intelligent Infrastructure"
+description: "Personal homepage of Yongqing Jiang (江永清), a Sichuan University-Nanyang Technological University Joint PhD student working on AI for civil and structural engineering: structural health monitoring, large language models, vision-language models, and intelligent infrastructure."
+excerpt: "Yongqing Jiang's academic homepage — research, publications, and contact."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
 <span class='anchor' id='about-me'></span>
+
+<h1 class="visually-hidden">Yongqing Jiang (江永清) — SCU-NTU Joint PhD Student in AI for Civil Engineering</h1>
 
 # 👤 About Me
 

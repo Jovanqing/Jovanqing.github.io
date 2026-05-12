@@ -6,8 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Yongqing Jiang"
-description              : "SCU–NTU @ Joint PhD Student"
+title                    : "Yongqing Jiang | 江永清"
+description              : "Yongqing Jiang (江永清) — SCU-NTU Joint PhD Student. Research at the intersection of Civil Engineering and Computer Science: structural health monitoring, AI for engineering, large language models, vision-language models, and intelligent infrastructures."
+url                      : "https://jovanqing.github.io"
+locale                   : "en_US"
+keywords                 : "Yongqing Jiang, 江永清, Sichuan University, Nanyang Technological University, SCU, NTU, Joint PhD, Civil Engineering, Computer Science, Structural Health Monitoring, AI for Engineering, Large Language Models, Vision-Language Models, Intelligent Infrastructure, Earthquake Engineering"
 repository               : "Jovanqing/Jovanqing.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -45,7 +48,7 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : "https://orcid.org/my-orcid?orcid=0000-0002-4319-447X"
+  orcid            : "https://orcid.org/0000-0002-4319-447X"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -126,6 +129,11 @@ defaults:
     values:
       layout: default
       author_profile: true
+  # exclude the ClustrMaps iframe page from sitemap / search indexing
+  - scope:
+      path: "assets/clustrmaps.html"
+    values:
+      sitemap: false
 
 
 # Sass/SCSS
