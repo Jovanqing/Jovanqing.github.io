@@ -1,17 +1,25 @@
-"""Google Scholar crawler — fetches the author profile and writes JSON.
+"""Google Scholar crawler - fetches the author profile and writes JSON.
 
 Output files (written to ./results):
   - gs_data.json              full author payload (used by the homepage script)
   - gs_data_shieldsio.json    citation count badge endpoint (legacy)
-  - gs_stats.json             compact stats card payload (citations / h-index / i10 / updated)
+  - gs_stats.json             compact stats card payload
 """
 
 from datetime import datetime, timezone
 import json
 import os
+import signal
 import sys
 
-from scholarly import scholarly
+from scholarly import scholarly, ProxyGenerator
+
+
+FETCH_TIMEOUT_SECONDS = 180  # 3 min hard cap on the entire scholar fetch
+
+
+def _timeout_handler(signum, frame):
+    raise TimeoutError("Scholar fetch exceeded %d seconds" % FETCH_TIMEOUT_SECONDS)
 
 
 def main() -> None:
@@ -19,8 +27,22 @@ def main() -> None:
     if not scholar_id:
         sys.exit("GOOGLE_SCHOLAR_ID environment variable is not set")
 
-    author = scholarly.search_author_id(scholar_id)
-    scholarly.fill(author, sections=["basics", "indices", "counts", "publications"])
+    # Try a free proxy first; Scholar tends to block raw GitHub Actions IPs.
+    pg = ProxyGenerator()
+    if pg.FreeProxies():
+        scholarly.use_proxy(pg)
+        print("Using FreeProxies for Scholar fetch", flush=True)
+    else:
+        print("FreeProxies unavailable; falling back to direct connection", flush=True)
+
+    signal.signal(signal.SIGALRM, _timeout_handler)
+    signal.alarm(FETCH_TIMEOUT_SECONDS)
+
+    try:
+        author = scholarly.search_author_id(scholar_id)
+        scholarly.fill(author, sections=["basics", "indices", "counts", "publications"])
+    finally:
+        signal.alarm(0)
 
     updated_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
     author["updated"] = updated_iso
