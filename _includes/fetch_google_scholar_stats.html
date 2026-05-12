@@ -7,11 +7,34 @@
     {% endif %}
     var openalexUrl = 'https://api.openalex.org/authors/orcid:0000-0002-4319-447X';
 
+    var prefersReducedMotion = window.matchMedia &&
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    function easeOutCubic(t) { return 1 - Math.pow(1 - t, 3); }
+
+    function animateCount(el, target, durationMs) {
+      var start = performance.now();
+      function tick(now) {
+        var t = Math.min(1, (now - start) / durationMs);
+        var v = Math.round(target * easeOutCubic(t));
+        el.textContent = v;
+        if (t < 1) requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+    }
+
     function setText(id, value) {
       var el = document.getElementById(id);
       if (el == null || value == null) return;
-      el.textContent = value;
       el.classList.remove('is-loading');
+      var num = Number(value);
+      if (!prefersReducedMotion && Number.isFinite(num) && num >= 0 && num < 1e6) {
+        // animate from 0 to target so the metrics visibly tick up on load
+        var dur = num > 200 ? 1100 : (num > 30 ? 850 : 600);
+        animateCount(el, num, dur);
+      } else {
+        el.textContent = value;
+      }
     }
 
     function formatUpdated(iso) {

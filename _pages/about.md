@@ -32,14 +32,30 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
 
 <div id="scholar-card" class="scholar-card" role="region" aria-label="Google Scholar statistics">
   <div class="scholar-card__cell">
+    <div class="scholar-card__icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M7 7h3v6H7zM10 13c0 2.5-1.5 4-3 4M14 7h3v6h-3zM17 13c0 2.5-1.5 4-3 4"/>
+      </svg>
+    </div>
     <div class="scholar-card__label">Total Citations</div>
     <div class="scholar-card__value is-loading" id="gs-total-citations">—</div>
   </div>
   <div class="scholar-card__cell">
+    <div class="scholar-card__icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 6h18M3 18h18M7 3v18M17 3v18"/>
+      </svg>
+    </div>
     <div class="scholar-card__label">h-index</div>
     <div class="scholar-card__value is-loading" id="gs-h-index">—</div>
   </div>
   <div class="scholar-card__cell">
+    <div class="scholar-card__icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3 6h18M3 12h12M3 18h18"/>
+        <circle cx="20" cy="12" r="2" fill="currentColor"/>
+      </svg>
+    </div>
     <div class="scholar-card__label">i10-index</div>
     <div class="scholar-card__value is-loading" id="gs-i10-index">—</div>
   </div>
