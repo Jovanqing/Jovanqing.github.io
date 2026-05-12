@@ -29,5 +29,30 @@
 <body>
   <script type="text/javascript" id="clstr_globe"
     src="//clustrmaps.com/globe.js?d=TEkAEEg2ggub9J3Rlv-xpwasnPS00fxPIGPl3Dutw1Q"></script>
+
+  <script>
+    /* ClustrMaps wraps the globe canvas in an <a> that navigates the
+       iframe to https://clustrmaps.com/site/... — that target page
+       refuses iframe embedding (X-Frame-Options), giving the user a
+       "connection refused" page. Neutralize the navigation so the
+       click is a no-op and the globe stays decorative. */
+    function disarmClustrLinks() {
+      document.querySelectorAll('a').forEach(function (a) {
+        a.removeAttribute('target');
+        a.addEventListener('click', function (e) {
+          e.preventDefault();
+          e.stopPropagation();
+        }, true);
+        a.style.cursor = 'default';
+      });
+    }
+    /* The globe injects DOM after script load; retry a few times. */
+    var attempts = 0;
+    var iv = setInterval(function () {
+      disarmClustrLinks();
+      if (++attempts > 12) clearInterval(iv);
+    }, 500);
+    document.addEventListener('DOMContentLoaded', disarmClustrLinks);
+  </script>
 </body>
 </html>
