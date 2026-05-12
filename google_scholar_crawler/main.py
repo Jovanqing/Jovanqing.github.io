@@ -1,23 +1,60 @@
-from scholarly import scholarly
-import jsonpickle
+"""Google Scholar crawler — fetches the author profile and writes JSON.
+
+Output files (written to ./results):
+  - gs_data.json              full author payload (used by the homepage script)
+  - gs_data_shieldsio.json    citation count badge endpoint (legacy)
+  - gs_stats.json             compact stats card payload (citations / h-index / i10 / updated)
+"""
+
+from datetime import datetime, timezone
 import json
-from datetime import datetime
 import os
+import sys
 
-author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
-scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
-name = author['name']
-author['updated'] = str(datetime.now())
-author['publications'] = {v['author_pub_id']:v for v in author['publications']}
-print(json.dumps(author, indent=2))
-os.makedirs('results', exist_ok=True)
-with open(f'results/gs_data.json', 'w') as outfile:
-    json.dump(author, outfile, ensure_ascii=False)
+from scholarly import scholarly
 
-shieldio_data = {
-  "schemaVersion": 1,
-  "label": "citations",
-  "message": f"{author['citedby']}",
-}
-with open(f'results/gs_data_shieldsio.json', 'w') as outfile:
-    json.dump(shieldio_data, outfile, ensure_ascii=False)
+
+def main() -> None:
+    scholar_id = os.environ.get("GOOGLE_SCHOLAR_ID")
+    if not scholar_id:
+        sys.exit("GOOGLE_SCHOLAR_ID environment variable is not set")
+
+    author = scholarly.search_author_id(scholar_id)
+    scholarly.fill(author, sections=["basics", "indices", "counts", "publications"])
+
+    updated_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
+    author["updated"] = updated_iso
+    author["publications"] = {
+        pub["author_pub_id"]: pub for pub in author["publications"]
+    }
+
+    os.makedirs("results", exist_ok=True)
+
+    with open("results/gs_data.json", "w", encoding="utf-8") as fp:
+        json.dump(author, fp, ensure_ascii=False)
+
+    citedby = author.get("citedby", 0)
+    with open("results/gs_data_shieldsio.json", "w", encoding="utf-8") as fp:
+        json.dump(
+            {"schemaVersion": 1, "label": "citations", "message": str(citedby)},
+            fp,
+            ensure_ascii=False,
+        )
+
+    stats = {
+        "citations": citedby,
+        "citations_5y": author.get("citedby5y", 0),
+        "h_index": author.get("hindex", 0),
+        "h_index_5y": author.get("hindex5y", 0),
+        "i10_index": author.get("i10index", 0),
+        "i10_index_5y": author.get("i10index5y", 0),
+        "updated": updated_iso,
+    }
+    with open("results/gs_stats.json", "w", encoding="utf-8") as fp:
+        json.dump(stats, fp, ensure_ascii=False)
+
+    print(json.dumps(stats, indent=2))
+
+
+if __name__ == "__main__":
+    main()
