@@ -1,14 +1,17 @@
 <script>
   (function () {
     {% if site.google_scholar_stats_use_cdn %}
-    var baseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@google-scholar-stats/';
+    var scholarUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@google-scholar-stats/gs_data.json';
     {% else %}
-    var baseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/';
+    var scholarUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/gs_data.json';
     {% endif %}
+    var openalexUrl = 'https://api.openalex.org/authors/orcid:0000-0002-4319-447X';
 
     function setText(id, value) {
       var el = document.getElementById(id);
-      if (el && value !== undefined && value !== null) el.textContent = value;
+      if (el == null || value == null) return;
+      el.textContent = value;
+      el.classList.remove('is-loading');
     }
 
     function formatUpdated(iso) {
@@ -20,13 +23,34 @@
         + ' ' + pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes()) + ' UTC';
     }
 
-    fetch(baseUrl + 'gs_data.json', { cache: 'no-store' })
+    function setSourceBadge(source) {
+      var el = document.getElementById('gs-source');
+      if (el) el.textContent = source;
+    }
+
+    /* 1. OpenAlex first - always reliable, lights up the card immediately. */
+    fetch(openalexUrl, { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+      .then(function (data) {
+        var stats = (data && data.summary_stats) || {};
+        setText('gs-total-citations', data.cited_by_count);
+        setText('gs-h-index',          stats.h_index);
+        setText('gs-i10-index',        stats.i10_index);
+        setText('gs-updated',          formatUpdated(data.updated_date));
+        setSourceBadge('OpenAlex');
+      })
+      .catch(function () { /* OpenAlex unreachable - swallow, Scholar JSON may still load. */ });
+
+    /* 2. Scholar JSON - if the workflow ever succeeds, overwrite with Scholar's
+          (typically higher) numbers. */
+    fetch(scholarUrl, { cache: 'no-store' })
       .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
       .then(function (data) {
         setText('gs-total-citations', data.citedby);
-        setText('gs-h-index', data.hindex);
-        setText('gs-i10-index', data.i10index);
-        setText('gs-updated', formatUpdated(data.updated));
+        setText('gs-h-index',          data.hindex);
+        setText('gs-i10-index',        data.i10index);
+        setText('gs-updated',          formatUpdated(data.updated));
+        setSourceBadge('Google Scholar');
 
         var totalCitEl = document.getElementById('total_cit');
         if (totalCitEl) totalCitEl.textContent = data.citedby;
@@ -41,9 +65,6 @@
           }
         });
       })
-      .catch(function () {
-        var card = document.getElementById('scholar-card');
-        if (card) card.classList.add('scholar-card--unavailable');
-      });
+      .catch(function () { /* Scholar JSON not available yet - OpenAlex result stays. */ });
   })();
 </script>
