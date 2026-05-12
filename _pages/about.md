@@ -200,16 +200,8 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
     <div>
       <div class="badge">Engineering Structure 2024</div>
       <div class="paper-video-grid">
-        <video class="paper-video" autoplay loop muted playsinline preload="auto"
-               poster="/images/ES_Video.png"
-               aria-label="Seismic damage recognition demo (clip 1)">
-          <source src="/images/ES_Video_1.mp4" type="video/mp4">
-        </video>
-        <video class="paper-video" autoplay loop muted playsinline preload="auto"
-               poster="/images/ES_Video.png"
-               aria-label="Seismic damage recognition demo (clip 2)">
-          <source src="/images/ES_Video_2.mp4" type="video/mp4">
-        </video>
+        <img src="/images/ES_Video_1.gif" alt="Seismic damage recognition demo (clip 1)" width="100%" loading="lazy">
+        <img src="/images/ES_Video_2.gif" alt="Seismic damage recognition demo (clip 2)" width="100%" loading="lazy">
       </div>
     </div>
   </div>
