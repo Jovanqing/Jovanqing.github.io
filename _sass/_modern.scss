@@ -366,34 +366,6 @@ html, body {
   transform: scale(1.02);
 }
 
-/* Stacked media inside a paper card — matches the single-image column
-   format of every other paper card; the two media items sit one above
-   the other inside the same .paper-box-image slot. Used for both GIFs
-   (animated <img>) and MP4 (<video>). */
-.paper-video-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  width: 100%;
-}
-.paper-video-grid > img,
-.paper-video-grid > video,
-.paper-video-grid > .paper-video {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-sm);
-  background: var(--bg-subtle);
-  transition: transform var(--transition), box-shadow var(--transition);
-}
-.paper-box:hover .paper-video-grid > img,
-.paper-box:hover .paper-video-grid > video,
-.paper-box:hover .paper-video-grid > .paper-video {
-  transform: scale(1.02);
-  box-shadow: var(--shadow-md);
-}
-
 /* Badge - pill style */
 .paper-box .badge {
   position: absolute;
