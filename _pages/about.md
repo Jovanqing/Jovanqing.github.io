@@ -14,7 +14,7 @@ redirect_from:
 
 Hi! I’m Yongqing Jiang, a joint PhD student at **Sichuan University (SCU)** and **Nanyang Technological University (NTU)**, under the supervision of <a href="https://acem.scu.edu.cn/info/1282/10761.htm" target="_blank">**Prof. Kaoshan Dai**</a> and <a href="https://dr.ntu.edu.sg/entities/person/Shen-Zhiqi" target="_blank">**Prof. Zhiqi Shen**</a>.
 My research resides at the intersection of **_Civil Engineering_** and **_Computer Science_**.
-Prior to my doctoral studies at SCU, I gained significant research experience at the <a href="https://www-443.webvpn.sdjzu.edu.cn/xdxy/szdsys/sysjj.htm" target="_blank">**Shandong Key Laboratory of Intelligent Building Technology**</a>.
+Prior to my doctoral studies at SCU, I gained significant research experience at the **Shandong Key Laboratory of Intelligent Building Technology**.
 
 My research interest focuses on applying artificial intelligence and deep learning to intelligent
 infrastructure systems, which can be divided as follows:
@@ -77,7 +77,7 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
     </p>
 
     <p>
-      <a href="https://arxiv.org/abs/2602.07083"><strong>Project</strong></a>
+      <a href="https://github.com/Jovanqing/AutoBM"><strong>Project</strong></a>
     </p>
 
     <ul>
@@ -128,7 +128,7 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
   <div class="paper-box-image">
     <div>
       <div class="badge">Computer-Aided Civil and Infrastructure Engineering 2025</div>
-      <div class="badge" style="background-color: #f39c12; top: 32px;">🔥 Featured Cover</div>
+      <a class="badge badge--feature" href="https://pdf.sciencedirectassets.com/796185/1-s2.0-S1093968725X46314/1-s2.0-S1093968726017986/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEF0aCXVzLWVhc3QtMSJHMEUCIQCG27uuAZsOqCSFPr536j11j6TocNnRZZ%2B73XznIXv%2F6AIgPyGe7lob0FZu6HvBlCkuPA4aPyHuoppoPcTI4Z5gRgcqswUIJhAFGgwwNTkwMDM1NDY4NjUiDEIgoiFdCdQKpLw%2FmiqQBSnRan%2F2GlJ8Yr4563x2hPBvbK4eOW6HXSNIkQsCN%2FexLrSuQSsTwl4P4c9WZKkTG6twhksZzUyCDX2Xpq0YBXOR9oxW6yW38CpKoykbHbYhR6TiLoUkhFvLaj%2FspwCEIVlLbDs0S7%2BmVgTVKred9FhZZlY8k0R7Owa03zzrojU1jb5ZiwBQfkHgczN2ESRAG%2BeJ49yBApFvqJPSiXkmHaChZbGPKrOaibtjsYRa3ktWqfsU%2FMNwiZnCXCXagPCc2kCSE3TVS4FHCGWQEQLtrsEhYaqxuTjboT5j4EUXbJWwdhgfNFQrFJbFtEMi64Kyo6rEa0ENJyjk6aPvf7yybvxYITBRTLUzNUGxjPUAzm1j77MKiuDxOn1w1zd%2F3zui8hvYzgnldtqAX2r5ucj0RgCI854tSf1wNRNEwUYj7WdtBOjZon%2B0YiF71BKy3NILlovvZRzxD7tSIRWnHQPDU8Lh6N1cnZdZB%2B6EkylEMew%2FuvjIh%2BEnFZdXPE90iFkhrfMcIN1W6uPLj%2FltN8syD3XPeChWN%2BWlus%2BuPaiz4wYqYVAbWYhX0BcVMCIBr8vVwn7ne04mtKCQsfObN5gWEAG11IZlPUr9m4VE1UvRKlLZrRyXW45Djtwmh49vEQMm4aGaVmvnaEeS%2BKXTpAC%2FD1WeILp7vswmrtR0kZHEFaql1fFK9Vhptv%2Fa%2BU6CqeATeHk8paExw9osvWq2di16apxnMsyhbKsO4mhpjlO673Fcm%2FURzolemk4vvkBgKjHxh3H5zWN3fm1oR2bnMx9PvS%2FEHT5v7RH%2BIhxvKKtrVmQqpcClTWVVTEB3tqX7gNC2ljc6aG9FxOrfNKrJMXWx3OdjzVoxhnp%2F1M7L%2BUQurpSQMO3XitAGOrEBGVhkEcX7xsgcrtlk4T4qPdyVXslHT1pBN7cIu357nl5NzMCDgx1OY8v2TBka5DQd4nvcgomO1%2FtjVWSN0K5hOJeZEEmmpNtTGVVP4sNy6zahVHwmLQovFxl7LTswC8TslMxyGrgPJPjCJTA0ApMCz0jVLaXcS5gxIsGofdJEa4pcHfpRdfgIyjiJaxxzig%2FxufYd1%2F86V%2BOwQzd08aoLxYJGPitfPwfCG1GKKDK1DPa1&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260512T055812Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY34BPYVM3%2F20260512%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=8417301fd0b07effce7e85780c2a76578212ed6633fb3c16826e8d1edf8ab309&hash=bb22745eed74d4d9039c39d6786642b5b9fb3e635fd5d175d4235b0f1422cbf5&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1093968726017986&tid=spdf-aec82a86-d13d-4296-bbc1-3d286b475e50&sid=57ada43291b2e143986a759259973b034554gxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=16005c08035752540c50&rr=9fa730b7eb8daa1c&cc=sg" target="_blank" rel="noopener" title="Open the cover-featured PDF">🔥 Featured Cover</a>
       <img src="/images/CACAIE.gif" alt="Large language model for post-earthquake structural damage assessment of buildings" width="100%">
     </div>
   </div>
@@ -362,6 +362,7 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
 
 # 🎖 Honors and Awards
 <ul class="timeline-list">
+  <li><em>2025</em> China Scholarship Council (CSC) Scholarship for Joint Ph.D. Students (<strong>Fully Funded / National Level</strong>)</li>
   <li><em>2025</em> Nominee for the Young Elite Scientist Sponsorship Program (<strong>PhD Student Special Track</strong>)</li>
   <li><em>2025</em> Sichuan University PhD Innovation Scholarship (<strong>Top 1%</strong>)</li>
   <li><em>2024</em> Sichuan University PhD Innovation Scholarship (<strong>Top 1%</strong>)</li>
