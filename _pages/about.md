@@ -63,7 +63,7 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
 <div class="scholar-card__meta">
   <a href="https://scholar.google.com/citations?user=WmV_Z7UAAAAJ&hl=zh-CN" target="_blank">View on Google Scholar →</a>
   <span class="dot"></span>
-  <span>Auto-updated every 6 hours</span>
+  <span>Synced periodically</span>
   <span class="dot"></span>
   <span>Last sync: <span id="gs-updated">—</span></span>
 </div>

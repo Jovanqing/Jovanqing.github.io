@@ -2,9 +2,6 @@ name: Get Citation Data
 
 on:
   workflow_dispatch:
-  page_build:
-  schedule:
-    - cron: '0 0,6,12,18 * * *'
 
 permissions:
   contents: write
@@ -53,5 +50,5 @@ jobs:
       - name: Report Scholar fetch failure (non-fatal)
         if: steps.fetch.outcome != 'success'
         run: |
-          echo "::warning::Google Scholar fetch failed or timed out -- likely scholarly was rate-limited / captcha-blocked by Scholar. The next scheduled run (every 6h) will retry."
+          echo "::warning::Google Scholar fetch failed or hung -- Scholar appears to block/stall requests from GitHub-hosted runner IP ranges. Run google_scholar_crawler/main.py from a non-GitHub-Actions network and push results/*.json to the google-scholar-stats branch manually instead."
           exit 0
