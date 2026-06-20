@@ -12,7 +12,7 @@ import os
 import signal
 import sys
 
-from scholarly import scholarly, ProxyGenerator
+from scholarly import scholarly
 
 
 FETCH_TIMEOUT_SECONDS = 180  # 3 min hard cap on the entire scholar fetch
@@ -26,14 +26,6 @@ def main() -> None:
     scholar_id = os.environ.get("GOOGLE_SCHOLAR_ID")
     if not scholar_id:
         sys.exit("GOOGLE_SCHOLAR_ID environment variable is not set")
-
-    # Try a free proxy first; Scholar tends to block raw GitHub Actions IPs.
-    pg = ProxyGenerator()
-    if pg.FreeProxies():
-        scholarly.use_proxy(pg)
-        print("Using FreeProxies for Scholar fetch", flush=True)
-    else:
-        print("FreeProxies unavailable; falling back to direct connection", flush=True)
 
     signal.signal(signal.SIGALRM, _timeout_handler)
     signal.alarm(FETCH_TIMEOUT_SECONDS)
