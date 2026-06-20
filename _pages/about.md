@@ -421,7 +421,7 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
   <span class="visitors-strip__label">Readers from around the world</span>
   <a href="https://info.flagcounter.com/aQmo" target="_blank" rel="noopener">
     <img class="visitors-strip__frame"
-         src="https://s01.flagcounter.com/map/aQmo/size_m/txt_E6EDF3/border_30363D/pageviews_1/viewers_0/flags_0/"
+         src="https://s01.flagcounter.com/map/aQmo/size_l/txt_1A1A1A/border_30363D/pageviews_1/viewers_0/flags_0/"
          alt="Visitor map"
          loading="lazy">
   </a>
