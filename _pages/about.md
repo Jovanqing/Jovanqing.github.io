@@ -78,7 +78,8 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
 <div class="paper-box">
   <div class="paper-box-image">
     <div>
-      <div class="badge">Arxiv 2026</div>
+      <div class="badge">KDD 2026</div>
+      <div class="badge" style="background-color: #f39c12; top: 32px;">🔥 First Earthquake Engineering Paper in KDD</div>
       <img src="/images/CodeLLM.png" alt="Rethinking Scientific Modeling: Toward Physically Consistent and Simulation-Executable Programmatic Generation" width="100%">
     </div>
   </div>
@@ -418,9 +419,10 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
 # 🌍 Visitors
 <div class="visitors-strip">
   <span class="visitors-strip__label">Readers from around the world</span>
-  <iframe class="visitors-strip__frame"
-          src="/assets/clustrmaps.html"
-          title="Visitor map"
-          loading="lazy"
-          scrolling="no"></iframe>
+  <a href="https://info.flagcounter.com/aQmo" target="_blank" rel="noopener">
+    <img class="visitors-strip__frame"
+         src="https://s01.flagcounter.com/map/aQmo/size_m/txt_E6EDF3/border_30363D/pageviews_1/viewers_0/flags_0/"
+         alt="Visitor map"
+         loading="lazy">
+  </a>
 </div>

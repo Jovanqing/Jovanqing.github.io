@@ -129,11 +129,6 @@ defaults:
     values:
       layout: default
       author_profile: true
-  # exclude the ClustrMaps iframe page from sitemap / search indexing
-  - scope:
-      path: "assets/clustrmaps.html"
-    values:
-      sitemap: false
   # exclude the Google Search Console HTML verification artifact
   - scope:
       path: "googlefefe813bc84f13d7.html"
