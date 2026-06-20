@@ -327,7 +327,7 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
     </p>
 
     <p>
-      <strong>Yongqing Jiang</strong>, Dandan Pang, Chengdong Li, Jianze Wang
+      Jianze Wang, <strong>Yongqing Jiang</strong>, Qinyong Huang, Xingquan Guan, Kaoshan Dai
     </p>
 
     <p>
