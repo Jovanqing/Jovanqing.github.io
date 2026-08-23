@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yongqing Jiang (江永清) | SCU-NTU Joint PhD — AI for Intelligent Infrastructure"
+title: "Yongqing Jiang - Homepage"
 description: "Personal homepage of Yongqing Jiang (江永清), a Sichuan University-Nanyang Technological University Joint PhD student working on AI for civil and structural engineering: structural health monitoring, large language models, vision-language models, and intelligent infrastructure."
 excerpt: "Yongqing Jiang's academic homepage — research, publications, and contact."
 author_profile: true
@@ -15,9 +15,9 @@ redirect_from:
 
 # 👤 About Me
 
-Hi! I’m Yongqing Jiang, a joint PhD student at **Sichuan University (SCU)** and **Nanyang Technological University (NTU)**, under the supervision of <a href="https://acem.scu.edu.cn/info/1282/10761.htm" target="_blank">**Prof. Kaoshan Dai**</a> and <a href="https://dr.ntu.edu.sg/entities/person/Shen-Zhiqi" target="_blank">**Prof. Zhiqi Shen**</a>.
-My research resides at the intersection of **_Civil Engineering_** and **_Computer Science_**.
-Prior to my doctoral studies at SCU, I gained significant research experience at the **Shandong Key Laboratory of Intelligent Building Technology**.
+Hi! I’m Yongqing Jiang, a joint PhD student at <a class="affil-badge" href="https://en.scu.edu.cn/" target="_blank" rel="noopener"><img src="/images/SCU_seal.png" alt="Sichuan University logo">Sichuan University (SCU)</a> and <a class="affil-badge" href="https://www.ntu.edu.sg/" target="_blank" rel="noopener"><img src="/images/NTU_shield.png" alt="Nanyang Technological University logo">Nanyang Technological University (NTU)</a>, under the supervision of <a class="prof-link" href="https://acem.scu.edu.cn/info/1282/10761.htm" target="_blank">**Prof. Kaoshan Dai**</a> and <a class="prof-link" href="https://dr.ntu.edu.sg/entities/person/Shen-Zhiqi" target="_blank">**Prof. Zhiqi Shen**</a>.
+My research resides at the intersection of Civil Engineering and Computer Science.
+Prior to my doctoral studies at SCU and NTU, I gained significant research experience at the Shandong Key Laboratory of Intelligent Building Technology.
 
 My research interest focuses on applying artificial intelligence and deep learning to intelligent
 infrastructure systems, which can be divided as follows:
@@ -69,10 +69,17 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
 </div>
 
 # 🔥 News
+<div class="news-scroll">
 <ul class="timeline-list">
-  <li><em>2026.01</em> 🎉🎉 Our paper "Large language model for post-earthquake structural damage assessment of buildings" has been selected as the <strong>Featured Cover</strong> of <em>Computer-Aided Civil and Infrastructure Engineering</em>, recommended by Editor-in-Chief <a href="https://scholar.google.com/citations?user=TQMpoh8AAAAJ&hl=zh-CN" target="_blank"><strong>Prof. Hojjat Adeli</strong></a>.</li>
+  <li><em>2026.08</em> 🎉🎉 Jelu presented our paper <a href="https://arxiv.org/abs/2602.07083" target="_blank">"Rethinking Scientific Modeling: Toward Physically Consistent and Simulation-Executable Programmatic Generation"</a> at <strong>KDD 2026</strong> (Aug 9).</li>
+  <li><em>2026.08</em> 🎉🎉 Our paper <a href="https://doi.org/10.1016/j.ssci.2026.107407" target="_blank">"Post-earthquake recovery assessment of indoor unanchored non-structural systems using computer vision techniques"</a> has been published in <em>Safety Science</em>.</li>
+  <li><em>2026.04</em> 🎉🎉 Our paper <a href="https://doi.org/10.1016/j.jobe.2026.116009" target="_blank">"A transformer-based method for seismic rocking response prediction of unanchored non-structural components"</a> has been published in <em>Journal of Building Engineering</em>.</li>
+  <li><em>2026.02</em> 🎉🎉 Our paper <a href="https://doi.org/10.1016/j.soildyn.2026.110191" target="_blank">"An entropy-like computer vision method for post-earthquake damage assessment of nonstructural components within indoor scenes"</a> has been published in <em>Soil Dynamics and Earthquake Engineering</em>.</li>
+  <li><em>2026.02</em> 🎉🎉 Our paper <a href="https://arxiv.org/abs/2602.07083" target="_blank">"Rethinking Scientific Modeling: Toward Physically Consistent and Simulation-Executable Programmatic Generation"</a> was covered by the WeChat media account <a href="https://mp.weixin.qq.com/s/M_KkDZc0K-1jlwy1PqNYdQ" target="_blank"><strong>MindChain.AI</strong></a>.</li>
+  <li><em>2026.01</em> 🎉🎉 Our paper "Large language model for post-earthquake structural damage assessment of buildings" has been selected as the <a href="https://www.sciencedirect.com/science/article/pii/S1093968726017986" target="_blank"><strong>Featured Cover</strong></a> of <em>Computer-Aided Civil and Infrastructure Engineering</em> — the <mark><strong>only featured cover of the year</strong></mark> and an <mark><strong>Editor-in-Chief's Choice</strong></mark>, recommended by <a href="https://scholar.google.com/citations?user=TQMpoh8AAAAJ&hl=zh-CN" target="_blank"><strong>Prof. Hojjat Adeli</strong></a>.</li>
   <li><em>2025.12</em> 🎉🎉 Honored to lead our team to win the <strong>National Second Prize</strong> in the <a href="https://cpipc.acge.org.cn/cw/hp/2c90801795a92a850195d03b537b1bac" target="_blank"><strong>2025 First China Graduate Intelligent Construction Innovation Competition</strong></a>.</li>
 </ul>
+</div>
 
 # 📝 Selective Publications
 <div class="paper-box">
@@ -96,13 +103,15 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
       <strong>Yongqing Jiang</strong>, Jianze Wang, Zhiqi Shen, Kaoshan Dai, Haoran Luo
     </p>
 
-    <p>
-      <a href="https://github.com/Jovanqing/AutoBM"><strong>Project</strong></a>
-    </p>
+    <p class="pub-venue"><em>KDD</em>, 2026</p>
+
+    <div class="journal-tags">
+      <span class="jtag jtag--ccf">CCF-A</span>
+    </div>
 
     <ul>
       <li>
-        The Problem: LLMs often struggle with the "physical common sense" required for structural engineering, producing code that looks right but fails in simulation. The Solution: I developed a framework that enforces structural dynamics consistency through CivilInstruct (a domain-specific dataset) and MBEval (a verification-driven benchmark). Impact: This approach ensures simulation-ready code generation, bridging the gap between high-level AI and stringent engineering constraints.
+        A framework pairing the CivilInstruct dataset with the MBEval benchmark to make LLM-generated structural modeling code physically consistent and simulation-ready.
       </li>
     </ul>
 
@@ -129,15 +138,17 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
       <strong>Yongqing Jiang</strong>, Jianze Wang, Xinyi Shen, Kaoshan Dai, Qingzi Ge
     </p>
 
-    <p>
-      <a href="https://doi.org/10.1016/j.autcon.2025.106720"><strong>Project</strong></a>
-    </p>
+    <p class="pub-venue"><em>Automation in Construction</em>, 2026</p>
+
+    <div class="journal-tags">
+      <span class="jtag jtag--top">工程技术TOP</span>
+      <span class="jtag jtag--q1">SCI升级版 工程技术1区</span>
+      <span class="jtag jtag--if">IF 12.6</span>
+    </div>
 
     <ul>
       <li>
-        We develop a multitask unified vision-language model for post-earthquake structural damage assessment,
-        supported by instruction-based multi-task learning, a two-stage assessment framework,
-        and a large-scale multi-attribute image–text dataset.
+        A multitask unified vision-language model for post-earthquake structural damage assessment, built on instruction-based multi-task learning and a large-scale multi-attribute image–text dataset.
       </li>
     </ul>
 
@@ -148,7 +159,7 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
   <div class="paper-box-image">
     <div>
       <div class="badge">Computer-Aided Civil and Infrastructure Engineering 2025</div>
-      <a class="badge badge--feature" href="https://pdf.sciencedirectassets.com/796185/1-s2.0-S1093968725X46314/1-s2.0-S1093968726017986/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEF0aCXVzLWVhc3QtMSJHMEUCIQCG27uuAZsOqCSFPr536j11j6TocNnRZZ%2B73XznIXv%2F6AIgPyGe7lob0FZu6HvBlCkuPA4aPyHuoppoPcTI4Z5gRgcqswUIJhAFGgwwNTkwMDM1NDY4NjUiDEIgoiFdCdQKpLw%2FmiqQBSnRan%2F2GlJ8Yr4563x2hPBvbK4eOW6HXSNIkQsCN%2FexLrSuQSsTwl4P4c9WZKkTG6twhksZzUyCDX2Xpq0YBXOR9oxW6yW38CpKoykbHbYhR6TiLoUkhFvLaj%2FspwCEIVlLbDs0S7%2BmVgTVKred9FhZZlY8k0R7Owa03zzrojU1jb5ZiwBQfkHgczN2ESRAG%2BeJ49yBApFvqJPSiXkmHaChZbGPKrOaibtjsYRa3ktWqfsU%2FMNwiZnCXCXagPCc2kCSE3TVS4FHCGWQEQLtrsEhYaqxuTjboT5j4EUXbJWwdhgfNFQrFJbFtEMi64Kyo6rEa0ENJyjk6aPvf7yybvxYITBRTLUzNUGxjPUAzm1j77MKiuDxOn1w1zd%2F3zui8hvYzgnldtqAX2r5ucj0RgCI854tSf1wNRNEwUYj7WdtBOjZon%2B0YiF71BKy3NILlovvZRzxD7tSIRWnHQPDU8Lh6N1cnZdZB%2B6EkylEMew%2FuvjIh%2BEnFZdXPE90iFkhrfMcIN1W6uPLj%2FltN8syD3XPeChWN%2BWlus%2BuPaiz4wYqYVAbWYhX0BcVMCIBr8vVwn7ne04mtKCQsfObN5gWEAG11IZlPUr9m4VE1UvRKlLZrRyXW45Djtwmh49vEQMm4aGaVmvnaEeS%2BKXTpAC%2FD1WeILp7vswmrtR0kZHEFaql1fFK9Vhptv%2Fa%2BU6CqeATeHk8paExw9osvWq2di16apxnMsyhbKsO4mhpjlO673Fcm%2FURzolemk4vvkBgKjHxh3H5zWN3fm1oR2bnMx9PvS%2FEHT5v7RH%2BIhxvKKtrVmQqpcClTWVVTEB3tqX7gNC2ljc6aG9FxOrfNKrJMXWx3OdjzVoxhnp%2F1M7L%2BUQurpSQMO3XitAGOrEBGVhkEcX7xsgcrtlk4T4qPdyVXslHT1pBN7cIu357nl5NzMCDgx1OY8v2TBka5DQd4nvcgomO1%2FtjVWSN0K5hOJeZEEmmpNtTGVVP4sNy6zahVHwmLQovFxl7LTswC8TslMxyGrgPJPjCJTA0ApMCz0jVLaXcS5gxIsGofdJEa4pcHfpRdfgIyjiJaxxzig%2FxufYd1%2F86V%2BOwQzd08aoLxYJGPitfPwfCG1GKKDK1DPa1&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260512T055812Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY34BPYVM3%2F20260512%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=8417301fd0b07effce7e85780c2a76578212ed6633fb3c16826e8d1edf8ab309&hash=bb22745eed74d4d9039c39d6786642b5b9fb3e635fd5d175d4235b0f1422cbf5&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1093968726017986&tid=spdf-aec82a86-d13d-4296-bbc1-3d286b475e50&sid=57ada43291b2e143986a759259973b034554gxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=16005c08035752540c50&rr=9fa730b7eb8daa1c&cc=sg" target="_blank" rel="noopener" title="Open the cover-featured PDF">🔥 Featured Cover</a>
+      <a class="badge badge--feature" href="https://www.sciencedirect.com/science/article/pii/S1093968726017986" target="_blank" rel="noopener" title="View the featured cover article">🔥 Featured Cover</a>
       <img src="/images/CACAIE.gif" alt="Large language model for post-earthquake structural damage assessment of buildings" width="100%">
     </div>
   </div>
@@ -165,13 +176,17 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
       <strong>Yongqing Jiang</strong>, Xinyi Shen, Jianze Wang, Kaoshan Dai
     </p>
 
-    <p>
-      <a href="https://doi.org/10.1111/mice.70010"><strong>Project</strong></a>
-    </p>
+    <p class="pub-venue"><em>Computer-Aided Civil and Infrastructure Engineering</em>, 2025</p>
+
+    <div class="journal-tags">
+      <span class="jtag jtag--top">工程技术TOP</span>
+      <span class="jtag jtag--q1">SCI升级版 工程技术1区</span>
+      <span class="jtag jtag--if">IF 9.2</span>
+    </div>
 
     <ul>
       <li>
-        We developed SDA-Chat, a multimodal Large Language Model (LLM) that automates professional post-earthquake structural damage assessment through multi-round vision-language interactions, achieving 83.04% accuracy with high inference efficiency.
+        SDA-Chat, a multimodal LLM that automates post-earthquake structural damage assessment via multi-round vision-language interaction, achieving 83.04% accuracy.
       </li>
     </ul>
 
@@ -199,13 +214,17 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
       <strong>Yongqing Jiang</strong>, Jianze Wang, Weiwei Chen, Kaoshan Dai
     </p>
 
-    <p>
-      <a href="https://doi.org/10.1016/j.engstruct.2025.120006"><strong>Project</strong></a>
-    </p>
+    <p class="pub-venue"><em>Engineering Structures</em>, 2025</p>
+
+    <div class="journal-tags">
+      <span class="jtag jtag--top">工程技术TOP</span>
+      <span class="jtag jtag--q1">SCI升级版 工程技术1区</span>
+      <span class="jtag jtag--if">IF 7.6</span>
+    </div>
 
     <ul>
       <li>
-        We propose a vision-based framework leveraging machine learning to infer Peak Floor Acceleration (PFA) ranges from the seismic responses of unanchored non-structural components, providing a cost-effective alternative to traditional monitoring with 84%–94% accuracy.
+        A vision-based machine-learning framework that infers peak floor acceleration (PFA) ranges from the rocking responses of freestanding non-structural components, with 84%–94% accuracy.
       </li>
     </ul>
 
@@ -232,13 +251,17 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
       <strong>Yongqing Jiang</strong>, Jianze Wang, Xingquan Guan, Kaoshan Dai
     </p>
 
-    <p>
-      <a href="https://doi.org/10.1016/j.engstruct.2024.118034"><strong>Project</strong></a>
-    </p>
+    <p class="pub-venue"><em>Engineering Structures</em>, 2024</p>
+
+    <div class="journal-tags">
+      <span class="jtag jtag--top">工程技术TOP</span>
+      <span class="jtag jtag--q1">SCI升级版 工程技术1区</span>
+      <span class="jtag jtag--if">IF 7.6</span>
+    </div>
 
     <ul>
       <li>
-        We developed TPViT-DMSR, a customized two-pathway vision transformer designed to recognize the seismic damage states of freestanding non-structural components through video analysis, achieving a mean average precision of 74.87%.
+        TPViT-DMSR, a two-pathway vision transformer that recognizes seismic damage states of freestanding non-structural components from video, reaching 74.87% mAP.
       </li>
     </ul>
 
@@ -256,7 +279,7 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
   <div class="paper-box-text">
 
     <p>
-      <a href="https://doi.org/10.1016/j.engstruct.2024.118034">
+      <a href="https://doi.org/10.1016/j.autcon.2021.103785">
         A deep learning approach for fast detection and classification of concrete damage
       </a>
     </p>
@@ -265,13 +288,17 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
       <strong>Yongqing Jiang</strong>, Dandan Pang, Chengdong Li
     </p>
 
-    <p>
-      <a href="https://doi.org/10.1016/j.engstruct.2024.118034"><strong>Project</strong></a>
-    </p>
+    <p class="pub-venue"><em>Automation in Construction</em>, 2021</p>
+
+    <div class="journal-tags">
+      <span class="jtag jtag--top">工程技术TOP</span>
+      <span class="jtag jtag--q1">SCI升级版 工程技术1区</span>
+      <span class="jtag jtag--if">IF 12.6</span>
+    </div>
 
     <ul>
       <li>
-        We developed TPViT-DMSR, a customized two-pathway vision transformer that leverages video-comprehension and trajectory attention to recognize the seismic damage states of freestanding non-structural components with a 74.87% mean average precision.
+        A fast deep learning pipeline that detects and classifies concrete damage in images.
       </li>
     </ul>
 
@@ -298,13 +325,17 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
       <strong>Yongqing Jiang</strong>, Dandan Pang, Chengdong Li, Jianze Wang
     </p>
 
-    <p>
-      <a href="https://doi.org/10.1111/mice.13124"><strong>Project</strong></a>
-    </p>
+    <p class="pub-venue"><em>Computer-Aided Civil and Infrastructure Engineering</em>, 2023</p>
+
+    <div class="journal-tags">
+      <span class="jtag jtag--top">工程技术TOP</span>
+      <span class="jtag jtag--q1">SCI升级版 工程技术1区</span>
+      <span class="jtag jtag--if">IF 9.2</span>
+    </div>
 
     <ul>
       <li>
-        We developed a CNN-based framework for automated concrete defect detection and sensor-free geographical localization, leveraging projection loss and feature vectorization to achieve pixel-level precision and 83.69% localization accuracy.
+        A CNN-based framework for automated concrete defect detection and sensor-free geographical localization, with 83.69% localization accuracy.
       </li>
     </ul>
 
@@ -331,13 +362,17 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
       Jianze Wang, <strong>Yongqing Jiang</strong>, Qinyong Huang, Xingquan Guan, Kaoshan Dai
     </p>
 
-    <p>
-      <a href="https://doi.org/10.1016/j.engstruct.2023.116849"><strong>Project</strong></a>
-    </p>
+    <p class="pub-venue"><em>Engineering Structures</em>, 2023</p>
+
+    <div class="journal-tags">
+      <span class="jtag jtag--top">工程技术TOP</span>
+      <span class="jtag jtag--q1">SCI升级版 工程技术1区</span>
+      <span class="jtag jtag--if">IF 7.6</span>
+    </div>
 
     <ul>
       <li>
-        We developed a novel deep-learning framework integrating ACN-BiLSTM and DRRNet to provide generalized and efficient estimations of nonlinear floor response spectra with 97.29% accuracy, significantly advancing the seismic design and safety of non-structural components.
+        An ACN-BiLSTM + DRRNet deep-learning framework for generalized, efficient prediction of nonlinear floor response spectra, with 97.29% accuracy.
       </li>
     </ul>
 
@@ -366,19 +401,33 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
       Yukang Cao, Dandan Pang, Qianchuan Zhao, Yi Yan, <strong>Yongqing Jiang</strong>, Chongyi Tian, Fan Wang, Junlin Li
     </p>
 
-    <p>
-      <a href="https://doi.org/10.1016/j.engappai.2024.107866"><strong>Project</strong></a>
-    </p>
+    <p class="pub-venue"><em>Engineering Applications of Artificial Intelligence</em>, 2024</p>
+
+    <div class="journal-tags">
+      <span class="jtag jtag--top">计算机科学TOP</span>
+      <span class="jtag jtag--q1">SCI升级版 计算机科学1区</span>
+      <span class="jtag jtag--if">IF 9.0</span>
+    </div>
 
     <ul>
       <li>
-        We propose <strong>YOLOv8-GD</strong>, a lightweight and accurate defect detection algorithm that optimizes the backbone with DW-Conv and GSConv, and incorporates a BiFPN structure, achieving a <strong>16.7% reduction</strong> in model size while improving mAP@0.5 by <strong>4.2%</strong>.
+        YOLOv8-GD, a lightweight photovoltaic defect detector (DW-Conv/GSConv backbone with BiFPN), cutting model size by 16.7% while improving mAP@0.5 by 4.2%.
       </li>
     </ul>
 
   </div>
 </div>
 
+
+# 📜 Selective Patents
+<ul class="timeline-list">
+  <li><em>2026</em> J. Wang, <strong>Y. Jiang</strong>, K. Dai. "A Vision-based Seismic Damage Identification Method for Freestanding Non-structural Components." Chinese Invention Patent, No. ZL202211256985.5 (Authorized).</li>
+  <li><em>2025</em> J. Wang, <strong>Y. Jiang</strong>, K. Dai. "Intelligent Seismic Damage Assessment Method for Buildings Based on Multimodal Large Language Models." Chinese Invention Patent, No. ZL202311278623.0 (Authorized).</li>
+  <li><em>2025</em> J. Wang, <strong>Y. Jiang</strong>, K. Dai. "A Deep Learning-based Method for Predicting Nonlinear Floor Acceleration Response Spectra." Chinese Invention Patent, No. ZL202310182776.9 (Authorized).</li>
+  <li><em>2023</em> J. Wang, <strong>Y. Jiang</strong>, K. Dai. "Seismic Damage Assessment Method for Buildings Based on Video-Identified Damage of Non-structural Components." Chinese Invention Patent, No. ZL202210631442.0 (Authorized).</li>
+  <li><em>2022</em> D. Pang, <strong>Y. Jiang</strong>, C. Li. "Intelligent Detection System and Method for Building Damage Based on Integrated Vision." Chinese Invention Patent, No. ZL202110740932.X (Authorized).</li>
+  <li><em>2022</em> D. Pang, <strong>Y. Jiang</strong>, C. Li. "Detection Method and System for Intelligent Traffic Electronic Prompting Devices Based on Multifeature Vision." Chinese Invention Patent, No. ZL202110769715.3 (Authorized).</li>
+</ul>
 
 # 🎖 Honors and Awards
 <ul class="timeline-list">
@@ -402,8 +451,14 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
 # 💬 Invited Talks
 <ul class="timeline-list">
   <li><em>2024.04</em> "A data-driven approach for estimating peak floor response based on damage of non-structural components." <em>The 4th International Conference on Vulnerability and Risk Analysis and Management (ICVRAM-ISUMA 2024)</em>, Tongji University, Shanghai, China.</li>
-  <li><em>2023.08</em> "The 2nd Workshop on Big Data in Civil Engineering." Zhejiang University, Hangzhou, China.</li>
-  <li><em>2023.05</em> "The 3rd Academic Conference on Computational and Simulation Technologies in Civil Engineering." Guangxi University, Nanning, China.</li>
+  <li><em>2023.05</em> "Video comprehension-based approach for seismic damage recognition of freestanding non-structural components." <em>The 3rd Academic Conference on Computational and Simulation Technologies in Civil Engineering</em>, Guangxi University, Nanning, China.</li>
+</ul>
+
+# 🤝 Conference Experience
+<ul class="timeline-list">
+  <li><em>2024.12</em> <em>The 2nd Innovation Forum on Wind Disaster Mitigation and Wind Energy Utilization</em>, Chengdu, China — supported forum organization, participant guidance, and academic session assistance.</li>
+  <li><em>2024.11</em> <em>The 14th China-Japan Structural Engineering Technology Exchange Conference</em>, Chengdu, China — assisted with conference organization, participant reception, and on-site coordination.</li>
+  <li><em>2024.05</em> <em>The 10th Technical Exchange Conference on Seismic Retrofitting and Renovation</em> (Seismic Resistance and Disaster Prevention Branch, Architectural Society of China), Chengdu, China — supported attendee reception, venue coordination, and on-site assistance for technical sessions.</li>
 </ul>
 
 # 🚀 Projects

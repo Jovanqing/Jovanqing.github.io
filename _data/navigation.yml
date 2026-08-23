@@ -9,6 +9,9 @@ main:
   - title: "Selective Publications"
     url: "/#-selective-publications"
 
+  - title: "Selective Patents"
+    url: "/#-selective-patents"
+
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
 
@@ -17,6 +20,9 @@ main:
 
   - title: "Invited Talks"
     url: "/#-invited-talks"
+
+  - title: "Conference Experience"
+    url: "/#-conference-experience"
 
   - title: "Projects"
     url: "/#-projects"

@@ -24,7 +24,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Yongqing Jiang(江永清)"
+  name             : "Yongqing Jiang"
   avatar           : "images/Yongqing.png"
   bio              : "Major in Civil Engineering & Computer Science | Focus on AI-driven Intelligent Infrastructure"
   location         : "Singapore"

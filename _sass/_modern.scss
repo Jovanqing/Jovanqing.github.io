@@ -588,6 +588,81 @@ html, body {
   vertical-align: 0.06em;
 }
 
+/* News — all items visible in a scrollable box (fixed height + slim scrollbar) */
+
+.news-scroll {
+  max-height: 320px;
+  overflow-y: auto;
+  padding-right: 14px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-strong) transparent;
+}
+.news-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.news-scroll::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 3px;
+}
+.news-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Inline highlight marker — e.g., standout phrases in News */
+
+.page__content mark {
+  background: rgba(250, 204, 21, 0.28);
+  color: inherit;
+  padding: 0 3px;
+  border-radius: 3px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+/* Journal ranking tags (EasyScholar-style) on publication cards */
+
+.paper-box-text .pub-venue {
+  margin: -0.15em 0 0.35em;
+  font-size: 0.92em;
+  color: var(--text-muted);
+}
+
+.journal-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0.4em 0 0.2em;
+}
+.jtag {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.7;
+  white-space: nowrap;
+}
+.jtag--top,
+.jtag--q1,
+.jtag--ccf {
+  background: #ffe4e6;
+  color: #be123c;
+}
+.jtag--if {
+  background: #ccfbf1;
+  color: #0f766e;
+}
+[data-theme="dark"] .jtag--top,
+[data-theme="dark"] .jtag--q1,
+[data-theme="dark"] .jtag--ccf {
+  background: rgba(251, 113, 133, 0.18);
+  color: #fda4af;
+}
+[data-theme="dark"] .jtag--if {
+  background: rgba(45, 212, 191, 0.14);
+  color: #5eead4;
+}
+
 /* ============================================================
    Visitors / Flag Counter section
    ============================================================ */
@@ -661,4 +736,63 @@ html, body {
   clip: rect(0, 0, 0, 0) !important;
   white-space: nowrap !important;
   border: 0 !important;
+}
+
+/* ============================================================
+   Affiliation badges — university logo + name pill (About Me)
+   ============================================================ */
+
+a.affil-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  padding: 0.08em 0.6em 0.08em 0.32em;
+  border-radius: 999px;
+  background: #f1ecfe;
+  color: #6d28d9;
+  font-weight: 700;
+  line-height: 1.7;
+  white-space: nowrap;
+  border-bottom: none;
+  transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+
+  img {
+    width: 1.3em;
+    height: 1.3em;
+    object-fit: contain;
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    background: #e8dffe;
+    box-shadow: 0 6px 16px rgba(109, 40, 217, 0.22);
+    border-bottom: none;
+  }
+}
+
+[data-theme="dark"] a.affil-badge {
+  background: rgba(167, 139, 250, 0.16);
+  color: #c4b5fd;
+
+  &:hover {
+    background: rgba(167, 139, 250, 0.28);
+    box-shadow: 0 6px 16px rgba(167, 139, 250, 0.3);
+    border-bottom: none;
+  }
+}
+
+/* Advisor links — underline sweeps in from the left on hover */
+
+a.prof-link {
+  border-bottom: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 1.5px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 1px;
+  transition: background-size 250ms ease;
+
+  &:hover {
+    background-size: 100% 1.5px;
+  }
 }
