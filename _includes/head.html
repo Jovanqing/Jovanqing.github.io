@@ -10,14 +10,14 @@
   document.documentElement.className =
     document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 
-  /* Apply theme before paint to avoid FOUC. Default is dark; localStorage
+  /* Apply theme before paint to avoid FOUC. Default is light; localStorage
      overrides for return visits, system preference is no longer consulted. */
   (function () {
     try {
       var stored = localStorage.getItem('theme');
-      document.documentElement.setAttribute('data-theme', stored || 'dark');
+      document.documentElement.setAttribute('data-theme', stored || 'light');
     } catch (e) {
-      document.documentElement.setAttribute('data-theme', 'dark');
+      document.documentElement.setAttribute('data-theme', 'light');
     }
   })();
 </script>
