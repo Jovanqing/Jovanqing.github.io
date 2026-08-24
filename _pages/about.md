@@ -15,7 +15,7 @@ redirect_from:
 
 # 👤 About Me
 
-Hi there, I’m Yongqing Jiang, a joint PhD student at <a class="affil-badge" href="https://en.scu.edu.cn/" target="_blank" rel="noopener"><img src="/images/SCU_seal.png" alt="Sichuan University logo">Sichuan University (SCU)</a> and <span style="white-space:nowrap"><a class="affil-badge" href="https://www.ntu.edu.sg/" target="_blank" rel="noopener"><img src="/images/NTU_shield.png" alt="Nanyang Technological University logo">Nanyang Technological University (NTU)</a>,</span> under the supervision of <a class="prof-link" href="https://acem.scu.edu.cn/info/1282/10761.htm" target="_blank">**Prof. Kaoshan Dai**</a> and <a class="prof-link" href="https://dr.ntu.edu.sg/entities/person/Shen-Zhiqi" target="_blank">**Prof. Zhiqi Shen**</a>.
+Hi there, I’m Yongqing Jiang, a joint PhD student at <a class="affil-badge" href="https://en.scu.edu.cn/" target="_blank" rel="noopener"><img src="/images/SCU_seal.png" alt="Sichuan University logo">Sichuan University (SCU)</a> and <a class="affil-badge" href="https://www.ntu.edu.sg/" target="_blank" rel="noopener"><img src="/images/NTU_shield.png" alt="Nanyang Technological University logo">Nanyang Technological University (NTU)</a> under the supervision of <a class="prof-link" href="https://acem.scu.edu.cn/info/1282/10761.htm" target="_blank">**Prof. Kaoshan Dai**</a> and <a class="prof-link" href="https://dr.ntu.edu.sg/entities/person/Shen-Zhiqi" target="_blank">**Prof. Zhiqi Shen**</a>.
 My research resides at the intersection of Civil Engineering and Computer Science.
 Prior to my doctoral studies at SCU and NTU, I gained significant research experience at the Shandong Key Laboratory of Intelligent Building Technology.
 
