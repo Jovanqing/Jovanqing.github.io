@@ -409,6 +409,7 @@ html, body {
 }
 .paper-box .paper-box-image video { // demo clips (were multi-MB GIFs)
   display: block;
+  width: 100%;
   height: auto;
 }
 .paper-box:hover .paper-box-image img,
