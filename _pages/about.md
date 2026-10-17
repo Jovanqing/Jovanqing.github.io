@@ -21,7 +21,7 @@ Prior to my doctoral studies at SCU and NTU, I gained significant research exper
 
 My research interest focuses on applying artificial intelligence and deep learning to intelligent
 infrastructure systems, which can be divided as follows:
-- Vibe Building: physics-verified AI agents for building design.
+- Vibe Building.
 - Structural Health Monitoring (SHM).
 - AI and Data Science in Engineering.
 - Large Language Models (LLMs) & Vision-Language Models (VLMs).
@@ -93,38 +93,6 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
     <a class="is-primary" href="https://arxiv.org/abs/2610.08156" target="_blank" rel="noopener">Paper</a>
     <a href="https://yongqingjiang.com/Vibe-Building/" target="_blank" rel="noopener">Project Page</a>
     <a href="https://github.com/Jovanqing/Vibe-Building" target="_blank" rel="noopener">Code</a>
-  </div>
-</div>
-
-<div class="paper-box">
-  <div class="paper-box-image">
-    <div>
-      <div class="badge">arXiv 2026</div>
-      <div class="badge" style="background-color: #f39c12; top: 32px;">🚀 New Paradigm: Vibe Building</div>
-      <img src="/images/VibeBuilding.jpg" alt="Vibe Building task overview: text, sketch, or photo inputs, physics-verified structural design" width="100%">
-    </div>
-  </div>
-
-  <div class="paper-box-text">
-
-    <p>
-      <a href="https://arxiv.org/abs/2610.08156">
-        Vibe Building
-      </a>
-    </p>
-
-    <p>
-      <strong>Yongqing Jiang</strong>, Haoran Luo, Jianze Wang, Xin Zhou, Kaoshan Dai, Zhiqi Shen
-    </p>
-
-    <p class="pub-venue"><em>arXiv preprint</em>, 2026 · <a href="https://yongqingjiang.com/Vibe-Building/" target="_blank">Project Page</a> · <a href="https://github.com/Jovanqing/Vibe-Building" target="_blank">Code</a></p>
-
-    <ul>
-      <li>
-        Introduces the Vibe Building task and PE-Loop, an agent in which a deterministic physics engine supplies every evaluation signal and the LLM only proposes design revisions; on 3,577 buildings across six seismic and wind code families, it achieves the highest held-out seismic pass rate under all four backbone LLMs.
-      </li>
-    </ul>
-
   </div>
 </div>
 
