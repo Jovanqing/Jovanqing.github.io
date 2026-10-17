@@ -9,17 +9,6 @@
 <script>
   document.documentElement.className =
     document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-
-  /* Apply theme before paint to avoid FOUC. Default is dark; localStorage
-     overrides for return visits, system preference is no longer consulted. */
-  (function () {
-    try {
-      var stored = localStorage.getItem('theme');
-      document.documentElement.setAttribute('data-theme', stored || 'dark');
-    } catch (e) {
-      document.documentElement.setAttribute('data-theme', 'dark');
-    }
-  })();
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">

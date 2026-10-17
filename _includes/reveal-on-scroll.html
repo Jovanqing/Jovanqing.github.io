@@ -1,0 +1,21 @@
+<script>
+  (function () {
+    /* Reveal-on-scroll for paper boxes & timeline items */
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) {
+            e.target.classList.add('is-visible');
+            io.unobserve(e.target);
+          }
+        });
+      }, { rootMargin: '0px 0px -40px 0px', threshold: 0.05 });
+
+      var targets = document.querySelectorAll('.paper-box, .timeline-list > li, .scholar-card, .visitors-wrap');
+      targets.forEach(function (el) {
+        el.classList.add('reveal');
+        io.observe(el);
+      });
+    }
+  })();
+</script>
