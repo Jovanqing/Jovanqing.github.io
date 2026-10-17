@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Yongqing Jiang - Homepage"
-description: "Personal homepage of Yongqing Jiang (江永清), a Sichuan University-Nanyang Technological University Joint PhD student working on AI for civil and structural engineering: structural health monitoring, large language models, vision-language models, and intelligent infrastructure."
+description: "Personal homepage of Yongqing Jiang (江永清), a Sichuan University-Nanyang Technological University Joint PhD student working on Vibe Building and AI for civil and structural engineering: structural health monitoring, large language models, vision-language models, and intelligent infrastructure."
 excerpt: "Yongqing Jiang's academic homepage — research, publications, and contact."
 author_profile: true
 redirect_from:
@@ -19,8 +19,21 @@ Hi there, I’m Yongqing Jiang, a joint PhD student at <a class="affil-badge" hr
 My research resides at the intersection of Civil Engineering and Computer Science.
 Prior to my doctoral studies at SCU and NTU, I gained significant research experience at the Shandong Key Laboratory of Intelligent Building Technology.
 
+<div class="vibe-spotlight" role="region" aria-label="Vibe Building">
+  <div class="vibe-spotlight__eyebrow">New research paradigm · 2026</div>
+  <div class="vibe-spotlight__title">Vibe Building</div>
+  <div class="vibe-spotlight__lineage">Vibe Coding <span aria-hidden="true">→</span> Vibe Building</div>
+  <p>Inspired by Andrej Karpathy's <a href="https://x.com/karpathy/status/1886192184808149383" target="_blank" rel="noopener">Vibe Coding</a>, we proposed <strong>Vibe Building</strong>: describe a building in words, a sketch, or a site photo, and AI agents design it, while a deterministic physics engine, not the LLM, decides whether it is code-compliant and safe to build.</p>
+  <div class="vibe-spotlight__links">
+    <a class="is-primary" href="https://arxiv.org/abs/2610.08156" target="_blank" rel="noopener">Paper</a>
+    <a href="https://yongqingjiang.com/Vibe-Building/" target="_blank" rel="noopener">Project Page</a>
+    <a href="https://github.com/Jovanqing/Vibe-Building" target="_blank" rel="noopener">Code</a>
+  </div>
+</div>
+
 My research interest focuses on applying artificial intelligence and deep learning to intelligent
 infrastructure systems, which can be divided as follows:
+- Vibe Building: physics-verified AI agents for building design.
 - Structural Health Monitoring (SHM).
 - AI and Data Science in Engineering.
 - Large Language Models (LLMs) & Vision-Language Models (VLMs).
@@ -69,6 +82,8 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 # 🔥 News
 <div class="news-scroll">
 <ul class="timeline-list">
+  <li><em>2026.10</em> 🚀🚀 We proposed <strong>Vibe Building</strong>, bringing Andrej Karpathy's <a href="https://x.com/karpathy/status/1886192184808149383" target="_blank">Vibe Coding</a> to the built environment. Our paper <a href="https://arxiv.org/abs/2610.08156" target="_blank">"Vibe Building"</a> is now on arXiv (<a href="https://yongqingjiang.com/Vibe-Building/" target="_blank">project page</a> · <a href="https://github.com/Jovanqing/Vibe-Building" target="_blank">code</a>).</li>
+  <li><em>2026.09</em> 🎓🎓 I successfully defended my doctoral dissertation and was awarded the Ph.D. degree.</li>
   <li><em>2026.08</em> 🎉🎉 Jelu presented our paper <a href="https://arxiv.org/abs/2602.07083" target="_blank">"Rethinking Scientific Modeling: Toward Physically Consistent and Simulation-Executable Programmatic Generation"</a> at <strong>KDD 2026</strong> (Aug 9).</li>
   <li><em>2026.08</em> 🎉🎉 Our paper <a href="https://doi.org/10.1016/j.ssci.2026.107407" target="_blank">"Post-earthquake recovery assessment of indoor unanchored non-structural systems using computer vision techniques"</a> has been published in <em>Safety Science</em>.</li>
   <li><em>2026.04</em> 🎉🎉 Our paper <a href="https://doi.org/10.1016/j.jobe.2026.116009" target="_blank">"A transformer-based method for seismic rocking response prediction of unanchored non-structural components"</a> has been published in <em>Journal of Building Engineering</em>.</li>
@@ -81,6 +96,38 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 </div>
 
 # 📝 Selective Publications
+<div class="paper-box">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">arXiv 2026</div>
+      <div class="badge" style="background-color: #f39c12; top: 32px;">🚀 New Paradigm: Vibe Building</div>
+      <img src="/images/VibeBuilding.jpg" alt="Vibe Building task overview: text, sketch, or photo inputs, physics-verified structural design" width="100%">
+    </div>
+  </div>
+
+  <div class="paper-box-text">
+
+    <p>
+      <a href="https://arxiv.org/abs/2610.08156">
+        Vibe Building
+      </a>
+    </p>
+
+    <p>
+      <strong>Yongqing Jiang</strong>, Haoran Luo, Jianze Wang, Xin Zhou, Kaoshan Dai, Zhiqi Shen
+    </p>
+
+    <p class="pub-venue"><em>arXiv preprint</em>, 2026 · <a href="https://yongqingjiang.com/Vibe-Building/" target="_blank">Project Page</a> · <a href="https://github.com/Jovanqing/Vibe-Building" target="_blank">Code</a></p>
+
+    <ul>
+      <li>
+        Introduces the Vibe Building task and PE-Loop, an agent in which a deterministic physics engine supplies every evaluation signal and the LLM only proposes design revisions; on 3,577 buildings across six seismic and wind code families, it achieves the highest held-out seismic pass rate under all four backbone LLMs.
+      </li>
+    </ul>
+
+  </div>
+</div>
+
 <div class="paper-box">
   <div class="paper-box-image">
     <div>
