@@ -95,8 +95,8 @@
     max-width: 150px;
     min-width: 75px;
     // full portrait, ellipse inscribed in the image so every edge fades out (none clipped)
-    -webkit-mask-image: radial-gradient(farthest-side at 50% 50%, #000 74%, transparent 100%);
-    mask-image: radial-gradient(farthest-side at 50% 50%, #000 74%, transparent 100%);
+    -webkit-mask-image: radial-gradient(farthest-side at 50% 50%, #000 88%, transparent 100%);
+    mask-image: radial-gradient(farthest-side at 50% 50%, #000 88%, transparent 100%);
 
     @include breakpoint($large) {
       width: 100%; // fill the sidebar column
