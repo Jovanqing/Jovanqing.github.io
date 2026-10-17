@@ -363,7 +363,8 @@
 }
 
 /* Featured cover image */
-.paper-box-image img {
+.paper-box-image img,
+.paper-box-image video {
   width: 100%;
   border: 3px solid #f39c12;
   border-radius: 6px;

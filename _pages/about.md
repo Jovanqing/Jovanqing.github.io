@@ -136,7 +136,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
   <div class="paper-box-image">
     <div>
       <div class="badge">Automation in Construction 2026</div>
-      <img src="/images/AIC.GIF" alt="Post-earthquake structural damage assessment" width="100%">
+      <video src="/images/AIC.mp4" autoplay muted loop playsinline aria-label="Post-earthquake structural damage assessment"></video>
     </div>
   </div>
 
@@ -174,7 +174,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
     <div>
       <div class="badge">Computer-Aided Civil and Infrastructure Engineering 2025</div>
       <a class="badge badge--feature" href="https://www.sciencedirect.com/science/article/pii/S1093968726017986" target="_blank" rel="noopener" title="View the featured cover article">🔥 Featured Cover</a>
-      <img src="/images/CACAIE.gif" alt="Large language model for post-earthquake structural damage assessment of buildings" width="100%">
+      <video src="/images/CACAIE.mp4" autoplay muted loop playsinline aria-label="Large language model for post-earthquake structural damage assessment of buildings"></video>
     </div>
   </div>
 
@@ -249,7 +249,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
   <div class="paper-box-image">
     <div>
       <div class="badge">Engineering Structure 2024</div>
-      <img src="/images/ES_Video_2.gif" alt="Video comprehension-based approach for seismic damage recognition of freestanding non-structural components" width="100%" loading="lazy">
+      <video src="/images/ES_Video_2.mp4" autoplay muted loop playsinline aria-label="Video comprehension-based approach for seismic damage recognition of freestanding non-structural components"></video>
     </div>
   </div>
 
@@ -286,7 +286,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
   <div class="paper-box-image">
     <div>
       <div class="badge">Automation in Construction 2021</div>
-      <img src="/images/AIC_21.gif" alt="A deep learning approach for fast detection and classification of concrete damage" width="100%">
+      <video src="/images/AIC_21.mp4" autoplay muted loop playsinline aria-label="A deep learning approach for fast detection and classification of concrete damage"></video>
     </div>
   </div>
 

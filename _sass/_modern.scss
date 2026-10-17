@@ -401,12 +401,18 @@ html, body {
   opacity: 1;
 }
 
-.paper-box .paper-box-image img {
+.paper-box .paper-box-image img,
+.paper-box .paper-box-image video {
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
   transition: transform var(--transition);
 }
-.paper-box:hover .paper-box-image img {
+.paper-box .paper-box-image video { // demo clips (were multi-MB GIFs)
+  display: block;
+  height: auto;
+}
+.paper-box:hover .paper-box-image img,
+.paper-box:hover .paper-box-image video {
   transform: scale(1.02);
 }
 
