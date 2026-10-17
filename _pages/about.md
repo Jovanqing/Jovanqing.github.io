@@ -26,9 +26,7 @@ infrastructure systems, which can be divided as follows:
 - Large Language Models (LLMs) & Vision-Language Models (VLMs).
 - Intelligent and Resilient Infrastructures.
 
-Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
-
-> Note: I am currently open to academic opportunities. Please feel free to contact me regarding any available positions.
+Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a>
 
 <div id="scholar-card" class="scholar-card" role="region" aria-label="Google Scholar statistics">
   <div class="scholar-card__cell">
@@ -432,7 +430,7 @@ Email: <a href="mailto:yongqingjiang97@gmail.com">yongqingjiang97@gmail.com</a>
 
 # 🎖 Honors and Awards
 <ul class="timeline-list">
-  <li><em>2025</em> China Scholarship Council (CSC) Scholarship for Joint Ph.D. Students (<strong>Fully Funded / National Level</strong>)</li>
+  <li><em>2025</em> China Scholarship Council Scholarship for Joint Ph.D. Students (<strong>Fully Funded / National Level</strong>)</li>
   <li><em>2025</em> Nominee for the Young Elite Scientist Sponsorship Program (<strong>PhD Student Special Track</strong>)</li>
   <li><em>2025</em> Sichuan University PhD Innovation Scholarship (<strong>Top 1%</strong>)</li>
   <li><em>2024</em> Sichuan University PhD Innovation Scholarship (<strong>Top 1%</strong>)</li>

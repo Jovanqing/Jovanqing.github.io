@@ -6,7 +6,7 @@
 {% if seo_description %}
   {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once | strip %}
 {% endif %}
-{% assign seo_image = page.image | default: '/images/Yongqing.png' | prepend: seo_url %}
+{% assign seo_image = page.image | default: '/images/Yongqing.jpg' | prepend: seo_url %}
 {% assign seo_author = site.author %}
 
 <title>{{ seo_title }}</title>
