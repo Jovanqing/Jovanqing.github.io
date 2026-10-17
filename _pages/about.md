@@ -19,18 +19,6 @@ Hi there, I’m Yongqing Jiang, a joint PhD student at <a class="affil-badge" hr
 My research resides at the intersection of Civil Engineering and Computer Science.
 Prior to my doctoral studies at SCU and NTU, I gained significant research experience at the Shandong Key Laboratory of Intelligent Building Technology.
 
-<div class="vibe-spotlight" role="region" aria-label="Vibe Building">
-  <div class="vibe-spotlight__eyebrow">New research paradigm · 2026</div>
-  <div class="vibe-spotlight__title">Vibe Building</div>
-  <div class="vibe-spotlight__lineage">Vibe Coding <span aria-hidden="true">→</span> Vibe Building</div>
-  <p>Inspired by Andrej Karpathy's <a href="https://x.com/karpathy/status/1886192184808149383" target="_blank" rel="noopener">Vibe Coding</a>, we proposed <strong>Vibe Building</strong>: describe a building in words, a sketch, or a site photo, and AI agents design it, while a deterministic physics engine, not the LLM, decides whether it is code-compliant and safe to build.</p>
-  <div class="vibe-spotlight__links">
-    <a class="is-primary" href="https://arxiv.org/abs/2610.08156" target="_blank" rel="noopener">Paper</a>
-    <a href="https://yongqingjiang.com/Vibe-Building/" target="_blank" rel="noopener">Project Page</a>
-    <a href="https://github.com/Jovanqing/Vibe-Building" target="_blank" rel="noopener">Code</a>
-  </div>
-</div>
-
 My research interest focuses on applying artificial intelligence and deep learning to intelligent
 infrastructure systems, which can be divided as follows:
 - Vibe Building: physics-verified AI agents for building design.
@@ -96,6 +84,18 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 </div>
 
 # 📝 Selective Publications
+<div class="vibe-spotlight" role="region" aria-label="Vibe Building">
+  <div class="vibe-spotlight__eyebrow">New research paradigm · 2026</div>
+  <div class="vibe-spotlight__title">Vibe Building</div>
+  <div class="vibe-spotlight__lineage">Vibe Coding <span aria-hidden="true">→</span> Vibe Building</div>
+  <p>Inspired by Andrej Karpathy's <a href="https://x.com/karpathy/status/1886192184808149383" target="_blank" rel="noopener">Vibe Coding</a>, we proposed <strong>Vibe Building</strong>: describe a building in words, a sketch, or a site photo, and AI agents design it, while a deterministic physics engine, not the LLM, decides whether it is code-compliant and safe to build.</p>
+  <div class="vibe-spotlight__links">
+    <a class="is-primary" href="https://arxiv.org/abs/2610.08156" target="_blank" rel="noopener">Paper</a>
+    <a href="https://yongqingjiang.com/Vibe-Building/" target="_blank" rel="noopener">Project Page</a>
+    <a href="https://github.com/Jovanqing/Vibe-Building" target="_blank" rel="noopener">Code</a>
+  </div>
+</div>
+
 <div class="paper-box">
   <div class="paper-box-image">
     <div>
