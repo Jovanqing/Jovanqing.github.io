@@ -94,9 +94,14 @@
   img {
     max-width: 150px;
     min-width: 75px;
-    // full portrait, edges dissolve into the page background (works in light & dark)
-    -webkit-mask-image: radial-gradient(closest-side at 50% 46%, #000 62%, transparent 100%);
-    mask-image: radial-gradient(closest-side at 50% 46%, #000 62%, transparent 100%);
+    // full portrait, only the outer rim dissolves into the page background
+    -webkit-mask-image: radial-gradient(farthest-side at 50% 45%, #000 72%, transparent 100%);
+    mask-image: radial-gradient(farthest-side at 50% 45%, #000 72%, transparent 100%);
+
+    @include breakpoint($large) {
+      width: 100%; // fill the sidebar column
+      max-width: 210px;
+    }
   }
 }
 
