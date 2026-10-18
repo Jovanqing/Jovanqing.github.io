@@ -22,7 +22,7 @@
 <!-- Open Graph (LinkedIn / Facebook / WeChat / Slack previews) -->
 <meta property="og:locale" content="{{ site.locale | default: 'en_US' }}">
 <meta property="og:type" content="profile">
-<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:site_name" content="{{ seo_author.name }}">
 <meta property="og:title" content="{{ seo_title }}">
 <meta property="og:description" content="{{ seo_description }}">
 <meta property="og:url" content="{{ canonical }}">
@@ -50,6 +50,17 @@
 {% if site.baidu_site_verification %}
 <meta name="baidu-site-verification" content="{{ site.baidu_site_verification }}">
 {% endif %}
+
+<!-- Schema.org WebSite — sets the site name Google shows above the result -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ seo_author.name }}",
+  "alternateName": ["江永清", "Yongqing Jiang Homepage"],
+  "url": "{{ seo_url }}/"
+}
+</script>
 
 <!-- Schema.org Person — drives Google Knowledge Panel + rich snippets -->
 <script type="application/ld+json">
