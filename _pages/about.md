@@ -281,7 +281,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 <div class="paper-box">
   <div class="paper-box-image">
     <div>
-      <video src="/images/AIC_21.mp4" autoplay muted loop playsinline aria-label="A deep learning approach for fast detection and classification of concrete damage"></video>
+      <video src="/images/AIC_21.mp4?v=2" autoplay muted loop playsinline aria-label="A deep learning approach for fast detection and classification of concrete damage"></video>
     </div>
   </div>
 
