@@ -70,6 +70,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 # 🔥 News
 <div class="news-scroll">
 <ul class="timeline-list">
+  <li><em>2026.11</em> 🎉🎉 Joined the <strong>Jinan-NTU Green Technology Research Institute (GreenTRI)</strong> as an Associate Research Fellow.</li>
   <li><em>2026.10</em> 🚀🚀 We proposed <strong>Vibe Building</strong>, bringing Andrej Karpathy's <a href="https://x.com/karpathy/status/1886192184808149383" target="_blank">Vibe Coding</a> to the built environment. Our paper <a href="https://arxiv.org/abs/2610.08156" target="_blank">"Vibe Building"</a> is now on arXiv (<a href="https://yongqingjiang.com/Vibe-Building/" target="_blank">project page</a> · <a href="https://github.com/Jovanqing/Vibe-Building" target="_blank">code</a>).</li>
   <li><em>2026.09</em> 🎓🎓 Successfully defended the doctoral dissertation and was awarded the Ph.D. degree. Heartfelt thanks to the supervisors for their invaluable guidance and support.</li>
   <li><em>2026.08</em> 🎉🎉 Jelu presented our paper <a href="https://arxiv.org/abs/2602.07083" target="_blank">"Rethinking Scientific Modeling: Toward Physically Consistent and Simulation-Executable Programmatic Generation"</a> at <strong>KDD 2026</strong> (Aug 9).</li>
