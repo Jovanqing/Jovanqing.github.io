@@ -79,7 +79,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
       <strong>Yongqing Jiang</strong>, Jianze Wang, Zhiqi Shen, Kaoshan Dai, Haoran Luo
     </p>
 
-    <p class="pub-venue"><em>KDD</em>, 2026</p>
+    <p class="pub-venue"><em>ACM SIGKDD Conference on Knowledge Discovery and Data&nbsp;Mining&nbsp;(KDD)</em>,&nbsp;2026</p>
 
     <div class="journal-tags">
       <span class="jtag jtag--ccf">CCF-A</span>
