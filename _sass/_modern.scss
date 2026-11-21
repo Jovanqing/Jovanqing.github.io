@@ -2,7 +2,7 @@
 
 /* ==========================================================================
    Modern overlay: typography, dark mode, citation card, paper cards,
-   timeline, sidebar visitors map. Loaded last so it overrides the theme.
+   timeline, visitors. Loaded last so it overrides the theme.
    ========================================================================== */
 
 :root {
@@ -451,31 +451,42 @@ a.badge:hover {
 }
 
 /* ============================================================
-   Visitors map (Flag Counter) at the bottom of the sidebar
+   Visitors / Flag Counter section
    ============================================================ */
 
-.sidebar .author__urls .author__visitors {
-  margin-top: 1.4em;
+.visitors-strip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+  margin: 0.4em auto 0.2em;
+  padding: 0.7em 0.9em 0.6em;
+  max-width: 480px;
+  background: transparent;
 }
-.author__visitors-label {
-  display: block;
-  margin-bottom: 0.5em;
+
+.visitors-strip__label {
   font-size: 10.5px;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
   color: var(--text-faint);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
 }
-.sidebar .author__visitors img {
-  display: block;
+
+.visitors-strip__frame {
   width: 100%;
+  max-width: 440px;
   height: auto;
-  border-radius: var(--radius-sm);
-  opacity: 0.92;
-  transition: opacity var(--transition);
+  border: 0;
+  display: block;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  opacity: 0.95;
+  transition: opacity var(--transition), transform var(--transition);
 }
-.sidebar .author__visitors a:hover img {
+.visitors-strip__frame:hover {
   opacity: 1;
+  transform: scale(1.02);
 }
 
 /* ============================================================
