@@ -12,7 +12,6 @@ url                      : "https://yongqingjiang.com"
 locale                   : "en_US"
 keywords                 : "Yongqing Jiang, 江永清, Vibe Building, Vibe Coding, Sichuan University, Nanyang Technological University, SCU, NTU, Joint PhD, Civil Engineering, Computer Science, Structural Health Monitoring, AI for Engineering, Large Language Models, Vision-Language Models, Intelligent Infrastructure, Earthquake Engineering"
 repository               : "Jovanqing/Jovanqing.github.io"
-google_scholar_stats_use_cdn : true
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/

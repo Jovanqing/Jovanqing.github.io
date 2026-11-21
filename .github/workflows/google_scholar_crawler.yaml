@@ -2,6 +2,8 @@ name: Get Citation Data
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 3 */3 * *"  # every 3 days, ~10 SerpApi calls/month (free tier: 250)
 
 permissions:
   contents: write
@@ -9,33 +11,19 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: |
-          cd ./google_scholar_crawler
-          pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Fetch Google Scholar data
-        id: fetch
-        timeout-minutes: 4
-        continue-on-error: true
+      - name: Fetch citation count via SerpApi
         env:
-          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          GOOGLE_SCHOLAR_ID: WmV_Z7UAAAAJ
         run: |
           cd ./google_scholar_crawler
-          python main.py
+          python3 main.py
 
-      - name: Push results to google-scholar-stats branch
-        if: steps.fetch.outcome == 'success'
+      - name: Push badge data to google-scholar-stats branch
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -43,12 +31,8 @@ jobs:
           git init -b google-scholar-stats
           git config --local user.name  "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add *.json
+          git add gs_data_shieldsio.json
           git commit -m "Update citation data ($(date -u +%Y-%m-%dT%H:%MZ))"
           git push --force "https://${GITHUB_ACTOR}:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:google-scholar-stats
-
-      - name: Report Scholar fetch failure (non-fatal)
-        if: steps.fetch.outcome != 'success'
-        run: |
-          echo "::warning::Google Scholar fetch failed or hung -- Scholar appears to block/stall requests from GitHub-hosted runner IP ranges. Run google_scholar_crawler/main.py from a non-GitHub-Actions network and push results/*.json to the google-scholar-stats branch manually instead."
-          exit 0
+          # the badge reads the file through jsDelivr; drop its cached copy
+          curl -fsS "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@google-scholar-stats/gs_data_shieldsio.json" || true
