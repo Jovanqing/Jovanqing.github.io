@@ -379,16 +379,34 @@ html, body {
   border-top: 0;
 }
 
-.paper-box .paper-box-image img,
-.paper-box .paper-box-image video {
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-sm);
-  transition: transform var(--transition);
+/* Every paper gets the same media box: 40% column, 16:9 frame */
+@include breakpoint($medium) {
+  .paper-box .paper-box-image {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
 }
-.paper-box .paper-box-image video { // demo clips (were multi-MB GIFs)
+.paper-box .paper-box-image > div {
   display: block;
   width: 100%;
+}
+.paper-box .paper-box-image img,
+.paper-box .paper-box-image video {
+  display: block;
+  width: 100%;
+  max-width: none;
   height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-md);
+  box-shadow: none;
+  transition: transform var(--transition);
+}
+.paper-box .paper-box-image img { // figures: show all of it; white matches their background
+  object-fit: contain;
+  background: #fff;
+}
+.paper-box .paper-box-image video { // demo clips are ~16:9 already
+  object-fit: cover;
 }
 .paper-box:hover .paper-box-image img,
 .paper-box:hover .paper-box-image video {
@@ -469,8 +487,7 @@ a.badge:hover {
 
 .paper-box .paper-box-text ul {
   margin-top: 0.6em;
-  padding-left: 1em;
-  border-left: 2px solid var(--border);
+  padding-left: 1.1em;
 }
 .paper-box .paper-box-text ul li {
   color: var(--text-muted);
