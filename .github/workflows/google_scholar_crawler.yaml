@@ -17,7 +17,7 @@ jobs:
 
       - name: Fetch citation count via SerpApi
         env:
-          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          SERPAPI_API_KEY: ${{ secrets.GOOGLE_SCHOLAR_ID_NEW }}  # holds the SerpApi key
           GOOGLE_SCHOLAR_ID: WmV_Z7UAAAAJ
         run: |
           cd ./google_scholar_crawler
