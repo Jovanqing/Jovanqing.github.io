@@ -435,12 +435,12 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 
 # 📜 Selective Patents
 <ul class="timeline-list">
-  <li><em>2026</em> J. Wang, <strong>Y. Jiang</strong>, K. Dai. "A Vision-based Seismic Damage Identification Method for Freestanding Non-structural Components." Chinese Invention Patent, No. ZL202211256985.5 (Authorized).</li>
-  <li><em>2025</em> J. Wang, <strong>Y. Jiang</strong>, K. Dai. "Intelligent Seismic Damage Assessment Method for Buildings Based on Multimodal Large Language Models." Chinese Invention Patent, No. ZL202311278623.0 (Authorized).</li>
-  <li><em>2025</em> J. Wang, <strong>Y. Jiang</strong>, K. Dai. "A Deep Learning-based Method for Predicting Nonlinear Floor Acceleration Response Spectra." Chinese Invention Patent, No. ZL202310182776.9 (Authorized).</li>
-  <li><em>2023</em> J. Wang, <strong>Y. Jiang</strong>, K. Dai. "Seismic Damage Assessment Method for Buildings Based on Video-Identified Damage of Non-structural Components." Chinese Invention Patent, No. ZL202210631442.0 (Authorized).</li>
-  <li><em>2022</em> D. Pang, <strong>Y. Jiang</strong>, C. Li. "Intelligent Detection System and Method for Building Damage Based on Integrated Vision." Chinese Invention Patent, No. ZL202110740932.X (Authorized).</li>
-  <li><em>2022</em> D. Pang, <strong>Y. Jiang</strong>, C. Li. "Detection Method and System for Intelligent Traffic Electronic Prompting Devices Based on Multifeature Vision." Chinese Invention Patent, No. ZL202110769715.3 (Authorized).</li>
+  <li><em>2026</em> "A Vision-based Seismic Damage Identification Method for Freestanding Non-structural Components." Chinese Invention Patent, No. ZL202211256985.5 (Authorized).</li>
+  <li><em>2025</em> "Intelligent Seismic Damage Assessment Method for Buildings Based on Multimodal Large Language Models." Chinese Invention Patent, No. ZL202311278623.0 (Authorized).</li>
+  <li><em>2025</em> "A Deep Learning-based Method for Predicting Nonlinear Floor Acceleration Response Spectra." Chinese Invention Patent, No. ZL202310182776.9 (Authorized).</li>
+  <li><em>2023</em> "Seismic Damage Assessment Method for Buildings Based on Video-Identified Damage of Non-structural Components." Chinese Invention Patent, No. ZL202210631442.0 (Authorized).</li>
+  <li><em>2022</em> "Intelligent Detection System and Method for Building Damage Based on Integrated Vision." Chinese Invention Patent, No. ZL202110740932.X (Authorized).</li>
+  <li><em>2022</em> "Detection Method and System for Intelligent Traffic Electronic Prompting Devices Based on Multifeature Vision." Chinese Invention Patent, No. ZL202110769715.3 (Authorized).</li>
 </ul>
 
 # 🎖 Honors and Awards
