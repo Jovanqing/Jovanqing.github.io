@@ -366,39 +366,24 @@ html, body {
    Paper cards (.paper-box) - refined
    ============================================================ */
 
-.paper-box {
-  border: 1px solid var(--border);
+.paper-box { // same family as .vibe-spotlight
+  border: 1px solid rgba(121, 192, 255, 0.14);
   border-radius: var(--radius-lg);
-  background: var(--bg-elevated);
-  padding: 1.6em;
-  margin: 1.6em 0;
+  background:
+    radial-gradient(120% 140% at 0% 0%, rgba(88, 166, 255, 0.06), transparent 55%),
+    var(--bg-elevated);
+  padding: 1.5em 1.6em;
+  margin: 1.4em 0;
   position: relative;
   overflow: hidden;
   transition: transform var(--transition), box-shadow var(--transition),
     border-color var(--transition);
-  box-shadow: var(--shadow-sm);
-}
-
-.paper-box::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 3px;
-  background: var(--accent-line);
-  opacity: 0;
-  transition: opacity var(--transition);
 }
 
 .paper-box:hover {
-  transform: translateY(-3px);
-  border-color: var(--border-strong);
-  box-shadow: var(--shadow-lg);
-}
-
-.paper-box:hover::before {
-  opacity: 1;
+  transform: translateY(-2px);
+  border-color: rgba(121, 192, 255, 0.32);
+  box-shadow: var(--accent-glow);
 }
 
 .paper-box .paper-box-image img,
@@ -417,45 +402,49 @@ html, body {
   transform: scale(1.02);
 }
 
-/* Badge - pill style */
+/* Highlight badge on the paper image (Featured Cover, ESI Highly Cited, ...) */
 .paper-box .badge {
   position: absolute;
-  top: 14px;
-  left: 14px;
-  padding: 4px 10px;
+  top: 12px;
+  left: 12px;
+  padding: 4px 11px;
   font-family: var(--font-display);
   font-size: 10.5px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #fff;
-  background: rgba(11, 95, 255, 0.92);
+  color: #05070b;
+  background: linear-gradient(90deg, #58a6ff, #a07bff);
   border-radius: 999px;
   margin: 0;
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
   z-index: 2;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-}
-
-[data-theme="dark"] .paper-box .badge {
-  background: rgba(88, 166, 255, 0.95);
-  color: #0d1117;
-}
-
-/* "Featured Cover" / "ESI Highly Cited" amber accent badge */
-.paper-box .badge.badge--feature {
-  top: 38px;
-  background: rgba(243, 156, 18, 0.95);
-  color: #fff;
+  max-width: calc(100% - 24px); // long labels wrap inside the image on phones
+  white-space: normal;
+  line-height: 1.35;
   text-decoration: none;
   border-bottom: none !important;
+  box-shadow: 0 2px 10px rgba(88, 166, 255, 0.35);
 }
-.paper-box .badge.badge--feature:hover {
-  background: rgba(243, 156, 18, 1);
-  transform: translateY(-1px);
-  box-shadow: 0 2px 6px rgba(243, 156, 18, 0.4);
-  border-bottom: none !important;
+a.badge:hover {
+  filter: brightness(1.1);
+}
+
+/* Venue shown as an eyebrow above the title, like the spotlight card */
+.paper-box .paper-box-text {
+  display: flex;
+  flex-direction: column;
+}
+.paper-box .paper-box-text .pub-venue {
+  order: -1;
+  margin: 0 0 0.55em;
+  font-size: 0.72em;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.paper-box .paper-box-text .pub-venue em {
+  font-style: normal;
 }
 
 /* Paper text refinement */
@@ -587,11 +576,6 @@ html, body {
 
 /* Journal ranking tags (EasyScholar-style) on publication cards */
 
-.paper-box-text .pub-venue {
-  margin: -0.15em 0 0.35em;
-  font-size: 0.92em;
-  color: var(--text-muted);
-}
 
 .journal-tags {
   display: flex;

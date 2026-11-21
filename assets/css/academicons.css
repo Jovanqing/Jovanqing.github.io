@@ -352,22 +352,13 @@
   white-space: nowrap;
 }
 
-/* Featured / Highlight badge */
-.badge:nth-of-type(2) {
-  background: #f39c12;
-  color: #fff;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  top: 36px;
-  animation: glow 2s ease-in-out infinite;
-}
 
 /* Featured cover image */
 .paper-box-image img,
 .paper-box-image video {
   width: 100%;
-  border: 3px solid #f39c12;
-  border-radius: 6px;
+  border: 1px solid var(--border-strong);
+  border-radius: 10px;
 }
 
 /* 呼*

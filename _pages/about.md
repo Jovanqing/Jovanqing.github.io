@@ -100,8 +100,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 <div class="paper-box">
   <div class="paper-box-image">
     <div>
-      <div class="badge">KDD 2026</div>
-      <div class="badge" style="background-color: #f39c12; top: 32px;">🔥 First Earthquake Engineering Paper in KDD</div>
+      <div class="badge badge--feature">🔥 First Earthquake Engineering Paper in KDD</div>
       <img src="/images/CodeLLM.png" alt="Rethinking Scientific Modeling: Toward Physically Consistent and Simulation-Executable Programmatic Generation" width="100%">
     </div>
   </div>
@@ -136,7 +135,6 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 <div class="paper-box">
   <div class="paper-box-image">
     <div>
-      <div class="badge">Automation in Construction 2026</div>
       <video src="/images/AIC.mp4?v=1x-nosub" autoplay muted loop playsinline aria-label="Post-earthquake structural damage assessment"></video>
     </div>
   </div>
@@ -173,7 +171,6 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 <div class="paper-box">
   <div class="paper-box-image">
     <div>
-      <div class="badge">Computer-Aided Civil and Infrastructure Engineering 2025</div>
       <a class="badge badge--feature" href="https://www.sciencedirect.com/science/article/pii/S1093968726017986" target="_blank" rel="noopener" title="View the featured cover article">🔥 Featured Cover</a>
       <video src="/images/CACAIE.mp4?v=10x" autoplay muted loop playsinline aria-label="Large language model for post-earthquake structural damage assessment of buildings"></video>
     </div>
@@ -212,7 +209,6 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 <div class="paper-box">
   <div class="paper-box-image">
     <div>
-      <div class="badge">Engineering Structure 2025</div>
       <img src="/images/ES_PFA.png" alt="A data-driven approach for predicting peak floor response based on visually observed rocking behaviors of freestanding NSCs" width="100%">
     </div>
   </div>
@@ -249,7 +245,6 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 <div class="paper-box">
   <div class="paper-box-image">
     <div>
-      <div class="badge">Engineering Structure 2024</div>
       <video src="/images/ES_Video_2.mp4" autoplay muted loop playsinline aria-label="Video comprehension-based approach for seismic damage recognition of freestanding non-structural components"></video>
     </div>
   </div>
@@ -286,7 +281,6 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 <div class="paper-box">
   <div class="paper-box-image">
     <div>
-      <div class="badge">Automation in Construction 2021</div>
       <video src="/images/AIC_21.mp4" autoplay muted loop playsinline aria-label="A deep learning approach for fast detection and classification of concrete damage"></video>
     </div>
   </div>
@@ -323,7 +317,6 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 <div class="paper-box">
   <div class="paper-box-image">
     <div>
-      <div class="badge">Computer-Aided Civil and Infrastructure Engineering 2023</div>
       <img src="/images/CACAIE23.png" alt="A method of concrete damage detection and localization based on weakly supervised learning" width="100%">
     </div>
   </div>
@@ -360,7 +353,6 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 <div class="paper-box">
   <div class="paper-box-image">
     <div>
-      <div class="badge">Engineering Structures 2023</div>
       <img src="/images/LSTM.png" alt="An adapted LSTM-DRRNet approach for predicting floor acceleration response spectrum" width="100%">
     </div>
   </div>
@@ -398,8 +390,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 <div class="paper-box">
   <div class="paper-box-image">
     <div>
-      <div class="badge">Engineering Applications of Artificial 2024</div>
-      <div class="badge" style="background-color: #f39c12; top: 32px;">🔥 ESI Highly Cited</div>
+      <div class="badge badge--feature">🔥 ESI Highly Cited</div>
       <img src="/images/EAAI.png" alt="Improved YOLOv8-GD deep learning model for defect detection in electroluminescence images of solar photovoltaic modules" width="100%">
     </div>
   </div>
