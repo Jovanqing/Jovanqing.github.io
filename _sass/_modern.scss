@@ -177,6 +177,13 @@ html, body {
 .sidebar .author__urls a:hover {
   color: var(--accent);
 }
+.sidebar .scholar-badge { // live citation count next to the Google Scholar link
+  width: auto; // beats .sidebar img { width: 100% }
+  height: 18px;
+  margin-left: 4px;
+  vertical-align: -4px;
+  border-radius: 3px;
+}
 .sidebar .author__avatar img {
   transition: transform var(--transition);
 }

@@ -29,8 +29,6 @@ infrastructure systems, which can be divided as follows:
 
 Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a>
 
-<a href="https://scholar.google.com/citations?user=WmV_Z7UAAAAJ" target="_blank" rel="noopener"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FJovanqing%2FJovanqing.github.io%40google-scholar-stats%2Fgs_data_shieldsio.json&amp;logo=Google%20Scholar&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations" alt="Google Scholar citations"></a>
-
 # 🔥 News
 <div class="news-scroll">
 <ul class="timeline-list">
