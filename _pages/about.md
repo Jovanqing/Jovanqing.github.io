@@ -136,7 +136,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
   <div class="paper-box-image">
     <div>
       <div class="badge">Automation in Construction 2026</div>
-      <video src="/images/AIC.mp4" autoplay muted loop playsinline aria-label="Post-earthquake structural damage assessment"></video>
+      <video src="/images/AIC.mp4?v=4x" autoplay muted loop playsinline aria-label="Post-earthquake structural damage assessment"></video>
     </div>
   </div>
 
