@@ -401,12 +401,10 @@ html, body {
   box-shadow: none;
   transition: transform var(--transition);
 }
-.paper-box .paper-box-image img { // figures: show all of it; white matches their background
+.paper-box .paper-box-image img,
+.paper-box .paper-box-image video { // scale to fit, never crop; white matches the figures' background
   object-fit: contain;
   background: #fff;
-}
-.paper-box .paper-box-image video { // demo clips are ~16:9 already
-  object-fit: cover;
 }
 .paper-box:hover .paper-box-image img,
 .paper-box:hover .paper-box-image video {
