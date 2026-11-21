@@ -11,7 +11,7 @@
         });
       }, { rootMargin: '0px 0px -40px 0px', threshold: 0.05 });
 
-      var targets = document.querySelectorAll('.paper-box, .timeline-list > li, .visitors-wrap');
+      var targets = document.querySelectorAll('.paper-box, .timeline-list > li');
       targets.forEach(function (el) {
         el.classList.add('reveal');
         io.observe(el);

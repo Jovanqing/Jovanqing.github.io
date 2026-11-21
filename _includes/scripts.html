@@ -1,3 +1,16 @@
 <script src="assets/js/main.min.js"></script>
 
 {% include analytics.html %}
+
+<script>
+  /* The sticky sidebar is taller than most laptop screens: let it scroll with the page
+     until its bottom (visitors map) is in view, then stick there. */
+  (function () {
+    var sb = document.querySelector('.sidebar.sticky');
+    if (!sb) return;
+    function fit() { sb.style.top = Math.min(96, window.innerHeight - sb.offsetHeight - 16) + 'px'; }
+    window.addEventListener('resize', fit);
+    window.addEventListener('load', fit);
+    fit();
+  })();
+</script>

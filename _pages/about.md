@@ -438,14 +438,3 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
   <li><em>NSFC</em> Coupled Optimization and Dual Control of Vibration and Wind-Induced Responses for Novel Structural Systems of Ultra-High Wind Power Towers — <strong><em>Key Researcher</em></strong></li>
   <li><em>Provincial</em> Outstanding Young Innovation Team in Artificial Intelligence and Building Intelligence, Shandong Provincial Higher Education Institutions — <strong><em>Key Researcher</em></strong></li>
 </ul>
-
-# 🌍 Visitors
-<div class="visitors-strip">
-  <span class="visitors-strip__label">Readers from around the world</span>
-  <a href="https://info.flagcounter.com/aQmo" target="_blank" rel="noopener">
-    <img class="visitors-strip__frame"
-         src="https://s01.flagcounter.com/map/aQmo/size_l/txt_1A1A1A/border_30363D/pageviews_1/viewers_0/flags_0/"
-         alt="Visitor map"
-         loading="lazy">
-  </a>
-</div>
