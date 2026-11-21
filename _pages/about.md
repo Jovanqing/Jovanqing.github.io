@@ -155,8 +155,8 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
     <p class="pub-venue"><em>Automation in Construction</em>, 2026</p>
 
     <div class="journal-tags">
-      <span class="jtag jtag--top">CAS Top Journal</span>
-      <span class="jtag jtag--q1">CAS Zone 1 · Engineering &amp; Technology</span>
+      <span class="jtag jtag--top">工程技术TOP</span>
+      <span class="jtag jtag--q1">SCI升级版 工程技术1区</span>
       <span class="jtag jtag--if">IF 12.6</span>
     </div>
 
@@ -193,8 +193,8 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
     <p class="pub-venue"><em>Computer-Aided Civil and Infrastructure Engineering</em>, 2025</p>
 
     <div class="journal-tags">
-      <span class="jtag jtag--top">CAS Top Journal</span>
-      <span class="jtag jtag--q1">CAS Zone 1 · Engineering &amp; Technology</span>
+      <span class="jtag jtag--top">工程技术TOP</span>
+      <span class="jtag jtag--q1">SCI升级版 工程技术1区</span>
       <span class="jtag jtag--if">IF 9.2</span>
     </div>
 
@@ -231,8 +231,8 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
     <p class="pub-venue"><em>Engineering Structures</em>, 2025</p>
 
     <div class="journal-tags">
-      <span class="jtag jtag--top">CAS Top Journal</span>
-      <span class="jtag jtag--q1">CAS Zone 1 · Engineering &amp; Technology</span>
+      <span class="jtag jtag--top">工程技术TOP</span>
+      <span class="jtag jtag--q1">SCI升级版 工程技术1区</span>
       <span class="jtag jtag--if">IF 7.6</span>
     </div>
 
@@ -268,8 +268,8 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
     <p class="pub-venue"><em>Engineering Structures</em>, 2024</p>
 
     <div class="journal-tags">
-      <span class="jtag jtag--top">CAS Top Journal</span>
-      <span class="jtag jtag--q1">CAS Zone 1 · Engineering &amp; Technology</span>
+      <span class="jtag jtag--top">工程技术TOP</span>
+      <span class="jtag jtag--q1">SCI升级版 工程技术1区</span>
       <span class="jtag jtag--if">IF 7.6</span>
     </div>
 
@@ -305,8 +305,8 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
     <p class="pub-venue"><em>Automation in Construction</em>, 2021</p>
 
     <div class="journal-tags">
-      <span class="jtag jtag--top">CAS Top Journal</span>
-      <span class="jtag jtag--q1">CAS Zone 1 · Engineering &amp; Technology</span>
+      <span class="jtag jtag--top">工程技术TOP</span>
+      <span class="jtag jtag--q1">SCI升级版 工程技术1区</span>
       <span class="jtag jtag--if">IF 12.6</span>
     </div>
 
@@ -342,8 +342,8 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
     <p class="pub-venue"><em>Computer-Aided Civil and Infrastructure Engineering</em>, 2023</p>
 
     <div class="journal-tags">
-      <span class="jtag jtag--top">CAS Top Journal</span>
-      <span class="jtag jtag--q1">CAS Zone 1 · Engineering &amp; Technology</span>
+      <span class="jtag jtag--top">工程技术TOP</span>
+      <span class="jtag jtag--q1">SCI升级版 工程技术1区</span>
       <span class="jtag jtag--if">IF 9.2</span>
     </div>
 
@@ -379,8 +379,8 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
     <p class="pub-venue"><em>Engineering Structures</em>, 2023</p>
 
     <div class="journal-tags">
-      <span class="jtag jtag--top">CAS Top Journal</span>
-      <span class="jtag jtag--q1">CAS Zone 1 · Engineering &amp; Technology</span>
+      <span class="jtag jtag--top">工程技术TOP</span>
+      <span class="jtag jtag--q1">SCI升级版 工程技术1区</span>
       <span class="jtag jtag--if">IF 7.6</span>
     </div>
 
@@ -418,8 +418,8 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
     <p class="pub-venue"><em>Engineering Applications of Artificial Intelligence</em>, 2024</p>
 
     <div class="journal-tags">
-      <span class="jtag jtag--top">CAS Top Journal</span>
-      <span class="jtag jtag--q1">CAS Zone 1 · Computer Science</span>
+      <span class="jtag jtag--top">计算机科学TOP</span>
+      <span class="jtag jtag--q1">SCI升级版 计算机科学1区</span>
       <span class="jtag jtag--if">IF 9.0</span>
     </div>
 
