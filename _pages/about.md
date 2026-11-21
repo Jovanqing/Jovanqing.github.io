@@ -136,7 +136,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
   <div class="paper-box-image">
     <div>
       <div class="badge">Automation in Construction 2026</div>
-      <video src="/images/AIC.mp4?v=10x" autoplay muted loop playsinline aria-label="Post-earthquake structural damage assessment"></video>
+      <video src="/images/AIC.mp4?v=1x-nosub" autoplay muted loop playsinline aria-label="Post-earthquake structural damage assessment"></video>
     </div>
   </div>
 
@@ -174,7 +174,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
     <div>
       <div class="badge">Computer-Aided Civil and Infrastructure Engineering 2025</div>
       <a class="badge badge--feature" href="https://www.sciencedirect.com/science/article/pii/S1093968726017986" target="_blank" rel="noopener" title="View the featured cover article">🔥 Featured Cover</a>
-      <video src="/images/CACAIE.mp4" autoplay muted loop playsinline aria-label="Large language model for post-earthquake structural damage assessment of buildings"></video>
+      <video src="/images/CACAIE.mp4?v=10x autoplay muted loop playsinline aria-label="Large language model for post-earthquake structural damage assessment of buildings"></video>
     </div>
   </div>
 
