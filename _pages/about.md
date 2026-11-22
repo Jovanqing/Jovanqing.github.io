@@ -83,6 +83,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 
     <div class="journal-tags">
       <span class="jtag jtag--ccf">CCF-A</span>
+      <span class="jtag jtag--highlight">🔥 First Earthquake Engineering Paper in KDD</span>
     </div>
 
     <ul>
