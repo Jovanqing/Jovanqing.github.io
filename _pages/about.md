@@ -117,7 +117,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
     <p class="pub-venue"><em>Automation in Construction</em>, 2026</p>
 
     <div class="journal-tags">
-      <span class="jtag jtag--top" title="CAS Journal Ranking (中科院分区): Engineering &amp; Technology, Zone 1, TOP · 工程技术1区 TOP">SCI Q1 · TOP</span>
+      <span class="jtag jtag--top">SCI Q1 · Engineering TOP</span>
       <span class="jtag jtag--if">IF 12.6</span>
       <span class="jtag jtag--if">CiteScore 1/434 · Civil &amp; Structural Engineering</span>
     </div>
@@ -154,8 +154,9 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
     <p class="pub-venue"><em>Computer-Aided Civil and Infrastructure Engineering</em>, 2025</p>
 
     <div class="journal-tags">
-      <span class="jtag jtag--top" title="CAS Journal Ranking (中科院分区): Engineering &amp; Technology, Zone 1, TOP · 工程技术1区 TOP">SCI Q1 · TOP</span>
+      <span class="jtag jtag--top">SCI Q1 · Engineering TOP</span>
       <span class="jtag jtag--if">IF 9.2</span>
+      <span class="jtag jtag--if">CiteScore 14/434 · Civil &amp; Structural Engineering</span>
     </div>
 
     <ul>
@@ -190,8 +191,9 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
     <p class="pub-venue"><em>Engineering Structures</em>, 2025</p>
 
     <div class="journal-tags">
-      <span class="jtag jtag--top" title="CAS Journal Ranking (中科院分区): Engineering &amp; Technology, Zone 1, TOP · 工程技术1区 TOP">SCI Q1 · TOP</span>
+      <span class="jtag jtag--top">SCI Q1 · Engineering TOP</span>
       <span class="jtag jtag--if">IF 7.6</span>
+      <span class="jtag jtag--if">CiteScore 26/434 · Civil &amp; Structural Engineering</span>
     </div>
 
     <ul>
@@ -225,8 +227,9 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
     <p class="pub-venue"><em>Engineering Structures</em>, 2024</p>
 
     <div class="journal-tags">
-      <span class="jtag jtag--top" title="CAS Journal Ranking (中科院分区): Engineering &amp; Technology, Zone 1, TOP · 工程技术1区 TOP">SCI Q1 · TOP</span>
+      <span class="jtag jtag--top">SCI Q1 · Engineering TOP</span>
       <span class="jtag jtag--if">IF 7.6</span>
+      <span class="jtag jtag--if">CiteScore 26/434 · Civil &amp; Structural Engineering</span>
     </div>
 
     <ul>
@@ -260,7 +263,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
     <p class="pub-venue"><em>Automation in Construction</em>, 2021</p>
 
     <div class="journal-tags">
-      <span class="jtag jtag--top" title="CAS Journal Ranking (中科院分区): Engineering &amp; Technology, Zone 1, TOP · 工程技术1区 TOP">SCI Q1 · TOP</span>
+      <span class="jtag jtag--top">SCI Q1 · Engineering TOP</span>
       <span class="jtag jtag--if">IF 12.6</span>
       <span class="jtag jtag--if">CiteScore 1/434 · Civil &amp; Structural Engineering</span>
     </div>
@@ -296,8 +299,9 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
     <p class="pub-venue"><em>Computer-Aided Civil and Infrastructure Engineering</em>, 2023</p>
 
     <div class="journal-tags">
-      <span class="jtag jtag--top" title="CAS Journal Ranking (中科院分区): Engineering &amp; Technology, Zone 1, TOP · 工程技术1区 TOP">SCI Q1 · TOP</span>
+      <span class="jtag jtag--top">SCI Q1 · Engineering TOP</span>
       <span class="jtag jtag--if">IF 9.2</span>
+      <span class="jtag jtag--if">CiteScore 14/434 · Civil &amp; Structural Engineering</span>
     </div>
 
     <ul>
@@ -331,8 +335,9 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
     <p class="pub-venue"><em>Engineering Structures</em>, 2023</p>
 
     <div class="journal-tags">
-      <span class="jtag jtag--top" title="CAS Journal Ranking (中科院分区): Engineering &amp; Technology, Zone 1, TOP · 工程技术1区 TOP">SCI Q1 · TOP</span>
+      <span class="jtag jtag--top">SCI Q1 · Engineering TOP</span>
       <span class="jtag jtag--if">IF 7.6</span>
+      <span class="jtag jtag--if">CiteScore 26/434 · Civil &amp; Structural Engineering</span>
     </div>
 
     <ul>
@@ -368,7 +373,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
     <p class="pub-venue"><em>Engineering Applications of Artificial Intelligence</em>, 2024</p>
 
     <div class="journal-tags">
-      <span class="jtag jtag--top" title="CAS Journal Ranking (中科院分区): Computer Science, Zone 1, TOP · 计算机科学1区 TOP">SCI Q1 · TOP</span>
+      <span class="jtag jtag--top">SCI Q1 · Computer Science TOP</span>
       <span class="jtag jtag--if">IF 9.0</span>
     </div>
 
