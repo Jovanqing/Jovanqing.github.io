@@ -500,7 +500,7 @@ a.badge:hover {
   transform: translateY(0);
 }
 
-@media (prefers-reduced-motion: reduce) {
+@media print, (prefers-reduced-motion: reduce) { // print: never print a not-yet-revealed (opacity 0) block
   *, *::before, *::after {
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;

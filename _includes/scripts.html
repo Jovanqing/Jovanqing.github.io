@@ -31,4 +31,25 @@
     }, { rootMargin: '200px 0px' });
     each(function (v) { io.observe(v); });
   })();
+
+  /* Reveal on scroll: papers, timeline items and the spotlight fade in once as they come into view.
+     Classes are added here only, so no-JS / reduced-motion / no-IntersectionObserver visitors see
+     everything, and whatever is already on screen at load is shown at once. */
+  (function () {
+    if (!('IntersectionObserver' in window)) return;
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add('is-visible'); io.unobserve(e.target); }
+      });
+    });
+    var vh = window.innerHeight;
+    Array.prototype.forEach.call(document.querySelectorAll('.paper-box, .timeline-list > li, .vibe-spotlight'), function (el) {
+      var box = el.closest('.news-scroll'); /* News items are also clipped by their own scroll box */
+      var bottom = box ? Math.min(vh, box.getBoundingClientRect().bottom) : vh;
+      if (el.getBoundingClientRect().top < bottom) { el.classList.add('is-visible'); return; }
+      el.classList.add('reveal');
+      io.observe(el);
+    });
+  })();
 </script>
