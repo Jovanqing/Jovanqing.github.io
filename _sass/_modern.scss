@@ -395,6 +395,25 @@ a.badge:hover {
   vertical-align: 0.06em;
 }
 
+.tl-role {
+  white-space: nowrap; // "— Key Researcher" never splits on desktop
+}
+
+@media (max-width: 600px) { // phone: venue chip fills the line, so start the place on a fresh line without a leading "·"; role tag on its own line
+  .tl-sep {
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
+  .tl-role {
+    display: block;
+    margin-top: 0.15em;
+  }
+  .tl-role__dash {
+    display: none;
+  }
+}
+
 /* News — all items visible in a scrollable box (fixed height + slim scrollbar) */
 
 .news-scroll {
