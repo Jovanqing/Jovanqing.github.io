@@ -375,7 +375,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
     <div class="journal-tags">
       <span class="jtag jtag--top">SCI Q1 · Computer Science TOP</span>
       <span class="jtag jtag--if">IF 9.0</span>
-      <span class="jtag jtag--if">CiteScore 33/390 · Control &amp; Systems Engineering</span>
+      <span class="jtag jtag--if">CiteScore 72/570 · Artificial Intelligence</span>
     </div>
 
     <ul>
