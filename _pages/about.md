@@ -427,7 +427,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 <ul class="timeline-list">
   <li><em>2024.12</em> <em>The 2nd Innovation Forum on Wind Disaster Mitigation and Wind Energy Utilization</em> · Chengdu, China — supported forum organization, participant guidance, and academic session assistance.</li>
   <li><em>2024.11</em> <em>The 14th China-Japan Structural Engineering Technology Exchange Conference</em> · Chengdu, China — assisted with conference organization, participant reception, and on-site coordination.</li>
-  <li><em>2024.05</em> <em>The 10th Technical Exchange Conference on Seismic Retrofitting and Renovation</em> (Seismic Resistance and Disaster Prevention Branch, Architectural Society of China), Chengdu, China — supported attendee reception, venue coordination, and on-site assistance for technical sessions.</li>
+  <li><em>2024.05</em> <em>The 10th Technical Exchange Conference on Seismic Retrofitting and Renovation</em> · Seismic Resistance and Disaster Prevention Branch, Architectural Society of China · Chengdu, China — supported attendee reception, venue coordination, and on-site assistance for technical sessions.</li>
 </ul>
 
 ## 🚀 Projects
@@ -450,5 +450,5 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
          width="800" height="375"
          loading="lazy">
   </a>
-  <span class="visitors-strip__caption">Live visitor map · <a href="https://info.flagcounter.com/aQmo" target="_blank" rel="noopener">Flag Counter</a></span>
+  <span class="visitors-strip__caption">Live visitor map · <a href="https://info.flagcounter.com/aQmo" target="_blank" rel="noopener">Flag Counter</a> · <span class="visitors-strip__count"><img src="https://s01.flagcounter.com/map/aQmo/size_l/txt_1A1A1A/border_30363D/pageviews_1/viewers_0/flags_0/" alt="" aria-hidden="true" width="800" height="375" loading="lazy"></span></span>
 </div>

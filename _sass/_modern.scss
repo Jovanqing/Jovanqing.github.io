@@ -134,6 +134,19 @@ html, body {
   font-size: 1.15rem;
 }
 
+@media (max-width: 600px) { // phone: author card stacks right above About Me; theme margins left ~100px blank
+  .sidebar {
+    margin-bottom: 0;
+  }
+  .page__content > h2:first-of-type {
+    margin-top: 0.7em;
+    scroll-margin-top: 2em; // replaces the anchor-offset spacer below
+  }
+  .page__content > h2:first-of-type::before {
+    display: none; // its 2em box would otherwise overlap (and block clicks on) the card's icons
+  }
+}
+
 /* Code & pre */
 .page__content code,
 .page__content pre {
@@ -155,6 +168,11 @@ html, body {
 }
 .greedy-nav a:hover {
   color: var(--accent);
+}
+@media (min-width: 1280px) { // tighter gaps so all items fit the 1265px nav (greedy-nav JS reserves button + 30px)
+  .greedy-nav .visible-links a {
+    margin: 0 0.6rem;
+  }
 }
 
 /* Sidebar */
@@ -383,6 +401,16 @@ a.badge:hover {
   max-height: 320px;
   overflow-y: auto;
   padding-right: 14px;
+  padding-bottom: 28px; // = fade height, so the last item scrolls clear of the fade
+  // bottom 28px fades out; the right 14px strip (scrollbar + padding) stays solid
+  -webkit-mask-image: linear-gradient(#000, #000), linear-gradient(to bottom, #000 calc(100% - 28px), transparent);
+  -webkit-mask-size: 14px 100%, 100% 100%;
+  -webkit-mask-position: right top, 0 0;
+  -webkit-mask-repeat: no-repeat;
+  mask-image: linear-gradient(#000, #000), linear-gradient(to bottom, #000 calc(100% - 28px), transparent);
+  mask-size: 14px 100%, 100% 100%;
+  mask-position: right top, 0 0;
+  mask-repeat: no-repeat;
   scrollbar-width: thin;
   scrollbar-color: var(--border-strong) transparent;
 }
@@ -510,6 +538,28 @@ a.badge:hover {
   color: inherit;
   text-decoration: underline;
   text-underline-offset: 2px;
+}
+
+/* Live count: second copy of the same map image (same URL, so cached), cropped at 1:1 to the
+   footer text "N pageviews" (image px x 3-124, y 353-365: text starts at x 5, digit baseline
+   row 361; room for 7 digits + separators) and inverted: white band -> #000 like the page, text ->
+   light grey. No blend mode: #main (z-index) is an isolated group, so screen would be a no-op. */
+.visitors-strip__count {
+  display: inline-block;
+  position: relative;
+  width: 122px;
+  height: 13px;
+  overflow: hidden;
+  vertical-align: -4px; // rows 362-365 hang below the baseline
+}
+.visitors-strip__count img {
+  position: absolute;
+  left: -3px;
+  top: -353px;
+  width: 800px;
+  height: 375px;
+  max-width: none;
+  filter: invert(1);
 }
 
 /* ============================================================
