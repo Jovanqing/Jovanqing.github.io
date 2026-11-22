@@ -458,7 +458,6 @@ a.badge:hover {
   gap: 0.5em;
   margin: 0.4em auto 0.2em;
   padding: 0.7em 0.9em 0.6em;
-  max-width: 480px;
   background: transparent;
 }
 
@@ -470,20 +469,47 @@ a.badge:hover {
   font-weight: 600;
 }
 
+/* Flag Counter map is 800x375: 1px #30363D border all round, white title band
+   rows 1-21 ("Visitors", "Image:NASA"), map rows 22-346 (ragged white ice at
+   both ends), white footer rows 347-373 ("N pageviews", logo).
+   Visible window = cols 1-798, rows 30-341 -> 798x312 image px. */
+.visitors-strip__map {
+  position: relative;
+  display: block;
+  box-sizing: content-box; // aspect-ratio + % offsets apply to the inner window, not the border
+  width: calc(100% - 2px);
+  max-width: 718px;        // 720px incl. border
+  aspect-ratio: 798 / 312;
+  overflow: hidden;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+}
+
 .visitors-strip__frame {
-  width: 100%;
-  max-width: 440px;
+  position: absolute;
+  top: calc(-100% * 30 / 312);   // hide rows 0-29
+  left: calc(-100% * 1 / 798);   // hide col 0
+  width: calc(100% * 800 / 798); // 1 image px per 1/798 of the window
+  max-width: none;
   height: auto;
   border: 0;
   display: block;
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-sm);
   opacity: 0.95;
   transition: opacity var(--transition), transform var(--transition);
 }
-.visitors-strip__frame:hover {
+.visitors-strip__map:hover .visitors-strip__frame {
   opacity: 1;
   transform: scale(1.02);
+}
+
+.visitors-strip__caption {
+  font-size: 11px;
+  color: var(--text-faint);
+}
+.visitors-strip__caption a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 /* ============================================================

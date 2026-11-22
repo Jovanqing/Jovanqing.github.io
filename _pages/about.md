@@ -419,34 +419,36 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 
 ## 💬 Invited Talks
 <ul class="timeline-list">
-  <li><em>2024.04</em> "A data-driven approach for estimating peak floor response based on damage of non-structural components." <em>The 4th International Conference on Vulnerability and Risk Analysis and Management (ICVRAM-ISUMA 2024)</em>, Tongji University, Shanghai, China.</li>
-  <li><em>2023.05</em> "Video comprehension-based approach for seismic damage recognition of freestanding non-structural components." <em>The 3rd Academic Conference on Computational and Simulation Technologies in Civil Engineering</em>, Guangxi University, Nanning, China.</li>
+  <li><em>2024.04</em> "A data-driven approach for estimating peak floor response based on damage of non-structural components." <em>The 4th International Conference on Vulnerability and Risk Analysis and Management (ICVRAM-ISUMA 2024)</em> · Tongji University, Shanghai, China.</li>
+  <li><em>2023.05</em> "Video comprehension-based approach for seismic damage recognition of freestanding non-structural components." <em>The 3rd Academic Conference on Computational and Simulation Technologies in Civil Engineering</em> · Guangxi University, Nanning, China.</li>
 </ul>
 
 ## 🤝 Conference Experience
 <ul class="timeline-list">
-  <li><em>2024.12</em> <em>The 2nd Innovation Forum on Wind Disaster Mitigation and Wind Energy Utilization</em>, Chengdu, China — supported forum organization, participant guidance, and academic session assistance.</li>
-  <li><em>2024.11</em> <em>The 14th China-Japan Structural Engineering Technology Exchange Conference</em>, Chengdu, China — assisted with conference organization, participant reception, and on-site coordination.</li>
+  <li><em>2024.12</em> <em>The 2nd Innovation Forum on Wind Disaster Mitigation and Wind Energy Utilization</em> · Chengdu, China — supported forum organization, participant guidance, and academic session assistance.</li>
+  <li><em>2024.11</em> <em>The 14th China-Japan Structural Engineering Technology Exchange Conference</em> · Chengdu, China — assisted with conference organization, participant reception, and on-site coordination.</li>
   <li><em>2024.05</em> <em>The 10th Technical Exchange Conference on Seismic Retrofitting and Renovation</em> (Seismic Resistance and Disaster Prevention Branch, Architectural Society of China), Chengdu, China — supported attendee reception, venue coordination, and on-site assistance for technical sessions.</li>
 </ul>
 
 ## 🚀 Projects
 <ul class="timeline-list">
-  <li><em>NSFC</em> Intelligent Recognition of Indoor Seismic Damage Characteristics and Building Resilience Assessment Based on Video Understanding — <strong><em>Key Researcher</em></strong></li>
-  <li><em>NSFC</em> Mechanisms and Applications of Fiber Bragg Grating–Based Acoustic Emission Sensing for Concrete Durability Damage Monitoring — <strong><em>Key Researcher</em></strong></li>
-  <li><em>NSFC</em> Multi-Model Ensemble–Driven Precise Profiling of Office Building Operational States and Integrated Energy-Efficiency Optimization — <strong><em>Key Researcher</em></strong></li>
-  <li><em>NSFC</em> Swarm-Intelligence–Based Bio-Inspired Control of Robotic Fish Schools for Navigation in Unknown Aquatic Environments — <strong><em>Key Researcher</em></strong></li>
-  <li><em>NSFC</em> Coupled Optimization and Dual Control of Vibration and Wind-Induced Responses for Novel Structural Systems of Ultra-High Wind Power Towers — <strong><em>Key Researcher</em></strong></li>
-  <li><em>Provincial</em> Outstanding Young Innovation Team in Artificial Intelligence and Building Intelligence, Shandong Provincial Higher Education Institutions — <strong><em>Key Researcher</em></strong></li>
+  <li><em>NSFC</em> Intelligent Recognition of Indoor Seismic Damage Characteristics and Building Resilience Assessment Based on Video Understanding <span style="white-space:nowrap">— <strong><em>Key Researcher</em></strong></span></li>
+  <li><em>NSFC</em> Mechanisms and Applications of Fiber Bragg Grating–Based Acoustic Emission Sensing for Concrete Durability Damage Monitoring <span style="white-space:nowrap">— <strong><em>Key Researcher</em></strong></span></li>
+  <li><em>NSFC</em> Multi-Model Ensemble–Driven Precise Profiling of Office Building Operational States and Integrated Energy-Efficiency Optimization <span style="white-space:nowrap">— <strong><em>Key Researcher</em></strong></span></li>
+  <li><em>NSFC</em> Swarm-Intelligence–Based Bio-Inspired Control of Robotic Fish Schools for Navigation in Unknown Aquatic Environments <span style="white-space:nowrap">— <strong><em>Key Researcher</em></strong></span></li>
+  <li><em>NSFC</em> Coupled Optimization and Dual Control of Vibration and Wind-Induced Responses for Novel Structural Systems of Ultra-High Wind Power Towers <span style="white-space:nowrap">— <strong><em>Key Researcher</em></strong></span></li>
+  <li><em>Provincial</em> Outstanding Young Innovation Team in Artificial Intelligence and Building Intelligence, Shandong Provincial Higher Education Institutions <span style="white-space:nowrap">— <strong><em>Key Researcher</em></strong></span></li>
 </ul>
 
 ## 🌍 Visitors
 <div class="visitors-strip">
   <span class="visitors-strip__label">Readers from around the world</span>
-  <a href="https://info.flagcounter.com/aQmo" target="_blank" rel="noopener">
+  <a class="visitors-strip__map" href="https://info.flagcounter.com/aQmo" target="_blank" rel="noopener">
     <img class="visitors-strip__frame"
          src="https://s01.flagcounter.com/map/aQmo/size_l/txt_1A1A1A/border_30363D/pageviews_1/viewers_0/flags_0/"
          alt="Visitor map"
+         width="800" height="375"
          loading="lazy">
   </a>
+  <span class="visitors-strip__caption">Live visitor map · <a href="https://info.flagcounter.com/aQmo" target="_blank" rel="noopener">Flag Counter</a></span>
 </div>
