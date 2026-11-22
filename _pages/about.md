@@ -135,7 +135,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
   <div class="paper-box-image">
     <div>
       <a class="badge badge--feature" href="https://www.sciencedirect.com/science/article/pii/S1093968726017986" target="_blank" rel="noopener" title="View the featured cover article">🔥 Featured Cover</a>
-      <video src="/images/CACAIE.mp4?v=10x" poster="/images/CACAIE_poster.jpg" preload="none" muted loop playsinline aria-label="Large language model for post-earthquake structural damage assessment of buildings"></video>
+      <video src="/images/CACAIE.mp4?v=11x" poster="/images/CACAIE_poster.jpg?v=11x" preload="none" muted loop playsinline aria-label="Large language model for post-earthquake structural damage assessment of buildings"></video>
     </div>
   </div>
 

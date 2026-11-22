@@ -174,6 +174,26 @@ html, body {
     margin: 0 0.6rem;
   }
 }
+.greedy-nav .hidden-links { // collapsed-menu dropdown: theme default is a white panel
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+}
+.greedy-nav .hidden-links::before { border-color: var(--border-strong) transparent; } // pointer arrow: outline
+.greedy-nav .hidden-links::after { border-color: var(--bg-elevated) transparent; }    // pointer arrow: fill
+.greedy-nav .hidden-links li {
+  border-bottom-color: var(--border);
+}
+.greedy-nav .hidden-links a {
+  border-radius: var(--radius-sm);
+}
+.greedy-nav .hidden-links a:hover,
+.greedy-nav .hidden-links a:active,
+.greedy-nav .hidden-links a:focus-visible {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
 
 /* Sidebar */
 .sidebar .author__name,
