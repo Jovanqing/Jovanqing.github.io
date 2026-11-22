@@ -446,12 +446,6 @@ a.badge:hover {
   background: rgba(45, 212, 191, 0.14);
   color: #5eead4;
 }
-// Same gradient as .paper-box .badge; no dark override exists, so this applies in both themes
-.jtag.jtag--highlight {
-  background: linear-gradient(90deg, #58a6ff, #a07bff);
-  color: #05070b;
-  white-space: normal; // long label may wrap on phones instead of overflowing the card
-}
 
 /* ============================================================
    Visitors / Flag Counter section
