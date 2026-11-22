@@ -120,6 +120,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
       <span class="jtag jtag--top">工程技术TOP</span>
       <span class="jtag jtag--q1">SCI升级版 工程技术1区</span>
       <span class="jtag jtag--if">IF 12.6</span>
+      <span class="jtag jtag--if">CiteScore 1/434 · Civil &amp; Structural Engineering</span>
     </div>
 
     <ul>
@@ -266,6 +267,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
       <span class="jtag jtag--top">工程技术TOP</span>
       <span class="jtag jtag--q1">SCI升级版 工程技术1区</span>
       <span class="jtag jtag--if">IF 12.6</span>
+      <span class="jtag jtag--if">CiteScore 1/434 · Civil &amp; Structural Engineering</span>
     </div>
 
     <ul>
