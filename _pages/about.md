@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Yongqing Jiang - Homepage"
-description: "Personal homepage of Yongqing Jiang (江永清), a Sichuan University-Nanyang Technological University Joint PhD student working on Vibe Building and AI for civil and structural engineering: structural health monitoring, large language models, vision-language models, and intelligent infrastructure."
+description: "Yongqing Jiang (江永清), SCU-NTU Joint PhD student working on Vibe Building and AI for civil engineering: LLMs, VLMs, and structural health monitoring."
 excerpt: "Yongqing Jiang's academic homepage — research, publications, and contact."
 author_profile: true
 redirect_from:
@@ -13,9 +13,9 @@ redirect_from:
 
 <h1 class="visually-hidden">Yongqing Jiang (江永清) — SCU-NTU Joint PhD Student in AI for Civil Engineering</h1>
 
-# 👤 About Me
+## 👤 About Me
 
-Hi there, I’m Yongqing Jiang, a joint PhD student at <a class="affil-badge" href="https://en.scu.edu.cn/" target="_blank" rel="noopener"><img src="/images/SCU_seal.png" alt="Sichuan University logo">Sichuan University (SCU)</a> and <a class="affil-badge" href="https://www.ntu.edu.sg/" target="_blank" rel="noopener"><img src="/images/NTU_shield.png" alt="Nanyang Technological University logo">Nanyang Technological University (NTU)</a> <span style="white-space:nowrap">under the supervision of</span> <a class="prof-link" href="https://acem.scu.edu.cn/info/1282/10761.htm" target="_blank">**Prof. Kaoshan Dai**</a> and <a class="prof-link" href="https://dr.ntu.edu.sg/entities/person/Shen-Zhiqi" target="_blank">**Prof. Zhiqi Shen**</a>.
+Hi there, I’m Yongqing Jiang, a joint PhD student at <a class="affil-badge" href="https://en.scu.edu.cn/" target="_blank" rel="noopener"><img src="/images/SCU_seal.png" alt="Sichuan University logo" width="256" height="256">Sichuan University (SCU)</a> and <a class="affil-badge" href="https://www.ntu.edu.sg/" target="_blank" rel="noopener"><img src="/images/NTU_shield.png" alt="Nanyang Technological University logo" width="199" height="256">Nanyang Technological University (NTU)</a> <span style="white-space:nowrap">under the supervision of</span> <a class="prof-link" href="https://acem.scu.edu.cn/info/1282/10761.htm" target="_blank" rel="noopener">**Prof. Kaoshan Dai**</a> and <a class="prof-link" href="https://dr.ntu.edu.sg/entities/person/Shen-Zhiqi" target="_blank" rel="noopener">**Prof. Zhiqi Shen**</a>.
 My research resides at the intersection of Civil Engineering and Computer Science.
 Prior to my doctoral studies at SCU and NTU, I gained significant research experience at the Shandong Key Laboratory of Intelligent Building Technology.
 
@@ -29,24 +29,24 @@ infrastructure systems, which can be divided as follows:
 
 Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a>
 
-# 🔥 News
+## 🔥 News
 <div class="news-scroll">
 <ul class="timeline-list">
-  <li><em>2026.11</em> 🎉🎉 Joined the <strong>Jinan-NTU Green Technology Research Institute (GreenTRI)</strong> as an Associate Research Fellow.</li>
-  <li><em>2026.10</em> 🚀🚀 We proposed <strong>Vibe Building</strong>, bringing Andrej Karpathy's <a href="https://x.com/karpathy/status/1886192184808149383" target="_blank">Vibe Coding</a> to the built environment. Our paper <a href="https://arxiv.org/abs/2610.08156" target="_blank">"Vibe Building"</a> is now on arXiv (<a href="https://yongqingjiang.com/Vibe-Building/" target="_blank">project page</a> · <a href="https://github.com/Jovanqing/Vibe-Building" target="_blank">code</a>).</li>
-  <li><em>2026.09</em> 🎓🎓 Successfully defended the doctoral dissertation and was awarded the Ph.D. degree. Heartfelt thanks to the supervisors for their invaluable guidance and support.</li>
-  <li><em>2026.08</em> 🎉🎉 Jelu presented our paper <a href="https://arxiv.org/abs/2602.07083" target="_blank">"Rethinking Scientific Modeling: Toward Physically Consistent and Simulation-Executable Programmatic Generation"</a> at <strong>KDD 2026</strong> (Aug 9).</li>
-  <li><em>2026.08</em> 🎉🎉 Our paper <a href="https://doi.org/10.1016/j.ssci.2026.107407" target="_blank">"Post-earthquake recovery assessment of indoor unanchored non-structural systems using computer vision techniques"</a> has been published in <em>Safety Science</em>.</li>
-  <li><em>2026.04</em> 🎉🎉 Our paper <a href="https://doi.org/10.1016/j.jobe.2026.116009" target="_blank">"A transformer-based method for seismic rocking response prediction of unanchored non-structural components"</a> has been published in <em>Journal of Building Engineering</em>.</li>
-  <li><em>2026.02</em> 🎉🎉 Our paper <a href="https://doi.org/10.1016/j.soildyn.2026.110191" target="_blank">"An entropy-like computer vision method for post-earthquake damage assessment of nonstructural components within indoor scenes"</a> has been published in <em>Soil Dynamics and Earthquake Engineering</em>.</li>
-  <li><em>2026.02</em> 🎉🎉 Our paper <a href="https://arxiv.org/abs/2602.07083" target="_blank">"Rethinking Scientific Modeling: Toward Physically Consistent and Simulation-Executable Programmatic Generation"</a> was covered by the WeChat media account <a href="https://mp.weixin.qq.com/s/M_KkDZc0K-1jlwy1PqNYdQ" target="_blank"><strong>MindChain.AI</strong></a>.</li>
-  <li><em>2026.01</em> 🎉🎉 Our paper "Large language model for post-earthquake structural damage assessment of buildings" has been selected as the <a href="https://www.sciencedirect.com/science/article/pii/S1093968726017986" target="_blank"><strong>Featured Cover</strong></a> of <em>Computer-Aided Civil and Infrastructure Engineering</em> — the <mark><strong>only featured cover of the year</strong></mark> and an <mark><strong>Editor-in-Chief's Choice</strong></mark>, recommended by <a href="https://scholar.google.com/citations?user=TQMpoh8AAAAJ&hl=zh-CN" target="_blank"><strong>Prof. Hojjat Adeli</strong></a>.</li>
-  <li><em>2025.12</em> 🎉🎉 Honored to lead our team to win the <strong>National Second Prize</strong> in the <a href="https://cpipc.acge.org.cn/cw/hp/2c90801795a92a850195d03b537b1bac" target="_blank"><strong>2025 First China Graduate Intelligent Construction Innovation Competition</strong></a>.</li>
-  <li><em>2025.11</em> 🎉🎉 Our paper "Large language model for post-earthquake structural damage assessment of buildings" (sole first author, sole first affiliation) was featured in the news of <a href="https://acem.scu.edu.cn/info/1004/13713.htm" target="_blank"><strong>the College of Architecture and Environment, Sichuan University</strong></a>.</li>
+  <li><em>2026.11</em> 🏛️ Joined the <strong>Jinan-NTU Green Technology Research Institute (GreenTRI)</strong> as an Associate Research Fellow.</li>
+  <li><em>2026.10</em> 🚀 We proposed <strong>Vibe Building</strong>, bringing Andrej Karpathy's <a href="https://x.com/karpathy/status/1886192184808149383" target="_blank" rel="noopener">Vibe Coding</a> to the built environment. Our paper <a href="https://arxiv.org/abs/2610.08156" target="_blank" rel="noopener">"Vibe Building"</a> is now on arXiv (<a href="https://yongqingjiang.com/Vibe-Building/" target="_blank" rel="noopener">project page</a> · <a href="https://github.com/Jovanqing/Vibe-Building" target="_blank" rel="noopener">code</a>).</li>
+  <li><em>2026.09</em> 🎓 Successfully defended the doctoral dissertation and was awarded the Ph.D. degree. Heartfelt thanks to the supervisors for their invaluable guidance and support.</li>
+  <li><em>2026.08</em> 🎤 Jelu presented our paper <a href="https://arxiv.org/abs/2602.07083" target="_blank" rel="noopener">"Rethinking Scientific Modeling: Toward Physically Consistent and Simulation-Executable Programmatic Generation"</a> at <strong>KDD 2026</strong> (Aug 9).</li>
+  <li><em>2026.08</em> 📄 Our paper <a href="https://doi.org/10.1016/j.ssci.2026.107407" target="_blank" rel="noopener">"Post-earthquake recovery assessment of indoor unanchored non-structural systems using computer vision techniques"</a> has been published in <em>Safety Science</em>.</li>
+  <li><em>2026.04</em> 📘 Our paper <a href="https://doi.org/10.1016/j.jobe.2026.116009" target="_blank" rel="noopener">"A transformer-based method for seismic rocking response prediction of unanchored non-structural components"</a> has been published in <em>Journal of Building Engineering</em>.</li>
+  <li><em>2026.02</em> 📑 Our paper <a href="https://doi.org/10.1016/j.soildyn.2026.110191" target="_blank" rel="noopener">"An entropy-like computer vision method for post-earthquake damage assessment of nonstructural components within indoor scenes"</a> has been published in <em>Soil Dynamics and Earthquake Engineering</em>.</li>
+  <li><em>2026.02</em> 📰 Our paper <a href="https://arxiv.org/abs/2602.07083" target="_blank" rel="noopener">"Rethinking Scientific Modeling: Toward Physically Consistent and Simulation-Executable Programmatic Generation"</a> was covered by the WeChat media account <a href="https://mp.weixin.qq.com/s/M_KkDZc0K-1jlwy1PqNYdQ" target="_blank" rel="noopener"><strong>MindChain.AI</strong></a>.</li>
+  <li><em>2026.01</em> 🏅 Our paper "Large language model for post-earthquake structural damage assessment of buildings" has been selected as the <a href="https://www.sciencedirect.com/science/article/pii/S1093968726017986" target="_blank" rel="noopener"><strong>Featured Cover</strong></a> of <em>Computer-Aided Civil and Infrastructure Engineering</em> — the <mark><strong>only featured cover of the year</strong></mark> and an <mark><strong>Editor-in-Chief's Choice</strong></mark>, recommended by <a href="https://scholar.google.com/citations?user=TQMpoh8AAAAJ&hl=zh-CN" target="_blank" rel="noopener"><strong>Prof. Hojjat Adeli</strong></a>.</li>
+  <li><em>2025.12</em> 🏆 Honored to lead our team to win the <strong>National Second Prize</strong> in the <a href="https://cpipc.acge.org.cn/cw/hp/2c90801795a92a850195d03b537b1bac" target="_blank" rel="noopener"><strong>1st China Postgraduate Intelligent Construction Innovation Competition</strong></a>.</li>
+  <li><em>2025.11</em> 📣 Our paper "Large language model for post-earthquake structural damage assessment of buildings" (sole first author, sole first affiliation) was featured in the news of <a href="https://acem.scu.edu.cn/info/1004/13713.htm" target="_blank" rel="noopener"><strong>the College of Architecture and Environment, Sichuan University</strong></a>.</li>
 </ul>
 </div>
 
-# 📝 Selective Publications
+## 📝 Selected Publications
 <div class="vibe-spotlight" role="region" aria-label="Vibe Building">
   <div class="vibe-spotlight__eyebrow">New research paradigm · 2026</div>
   <div class="vibe-spotlight__title">Vibe Building</div>
@@ -63,14 +63,14 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
   <div class="paper-box-image">
     <div>
       <div class="badge badge--feature">🔥 First Earthquake Engineering Paper in KDD</div>
-      <img src="/images/CodeLLM.png" alt="Rethinking Scientific Modeling: Toward Physically Consistent and Simulation-Executable Programmatic Generation" width="100%">
+      <img src="/images/CodeLLM.png" alt="Rethinking Scientific Modeling: Toward Physically Consistent and Simulation-Executable Programmatic Generation" width="802" height="529" loading="lazy">
     </div>
   </div>
 
   <div class="paper-box-text">
 
     <p>
-      <a href="https://arxiv.org/abs/2602.07083">
+      <a href="https://arxiv.org/abs/2602.07083" target="_blank" rel="noopener">
         Rethinking Scientific Modeling: Toward Physically Consistent and Simulation-Executable Programmatic Generation
       </a>
     </p>
@@ -97,14 +97,14 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 <div class="paper-box">
   <div class="paper-box-image">
     <div>
-      <video src="/images/AIC.mp4?v=1x-nosub" autoplay muted loop playsinline aria-label="Post-earthquake structural damage assessment"></video>
+      <video src="/images/AIC.mp4?v=1x-nosub" poster="/images/AIC_poster.jpg" preload="none" muted loop playsinline aria-label="Post-earthquake structural damage assessment"></video>
     </div>
   </div>
 
   <div class="paper-box-text">
 
     <p>
-      <a href="https://doi.org/10.1016/j.autcon.2025.106720">
+      <a href="https://doi.org/10.1016/j.autcon.2025.106720" target="_blank" rel="noopener">
         Multitask Unified Large Vision-Language Model for Post-Earthquake Structural Damage Assessment of Buildings
       </a>
     </p>
@@ -134,14 +134,14 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
   <div class="paper-box-image">
     <div>
       <a class="badge badge--feature" href="https://www.sciencedirect.com/science/article/pii/S1093968726017986" target="_blank" rel="noopener" title="View the featured cover article">🔥 Featured Cover</a>
-      <video src="/images/CACAIE.mp4?v=10x" autoplay muted loop playsinline aria-label="Large language model for post-earthquake structural damage assessment of buildings"></video>
+      <video src="/images/CACAIE.mp4?v=10x" poster="/images/CACAIE_poster.jpg" preload="none" muted loop playsinline aria-label="Large language model for post-earthquake structural damage assessment of buildings"></video>
     </div>
   </div>
 
   <div class="paper-box-text">
 
     <p>
-      <a href="https://doi.org/10.1111/mice.70010">
+      <a href="https://doi.org/10.1111/mice.70010" target="_blank" rel="noopener">
         Large language model for post-earthquake structural damage assessment of buildings
       </a>
     </p>
@@ -171,14 +171,14 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 <div class="paper-box">
   <div class="paper-box-image">
     <div>
-      <img src="/images/ES_PFA.png" alt="A data-driven approach for predicting peak floor response based on visually observed rocking behaviors of freestanding NSCs" width="100%">
+      <img src="/images/ES_PFA.png" alt="A data-driven approach for predicting peak floor response based on visually observed rocking behaviors of freestanding NSCs" width="815" height="515" loading="lazy">
     </div>
   </div>
 
   <div class="paper-box-text">
 
     <p>
-      <a href="https://doi.org/10.1016/j.engstruct.2025.120006">
+      <a href="https://doi.org/10.1016/j.engstruct.2025.120006" target="_blank" rel="noopener">
         A data-driven approach for predicting peak floor response based on visually observed rocking behaviors of freestanding NSCs
       </a>
     </p>
@@ -207,14 +207,14 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 <div class="paper-box">
   <div class="paper-box-image">
     <div>
-      <video src="/images/ES_Video_2.mp4" autoplay muted loop playsinline aria-label="Video comprehension-based approach for seismic damage recognition of freestanding non-structural components"></video>
+      <video src="/images/ES_Video_2.mp4" poster="/images/ES_Video_2_poster.jpg" preload="none" muted loop playsinline aria-label="Video comprehension-based approach for seismic damage recognition of freestanding non-structural components"></video>
     </div>
   </div>
 
   <div class="paper-box-text">
 
     <p>
-      <a href="https://doi.org/10.1016/j.engstruct.2024.118034">
+      <a href="https://doi.org/10.1016/j.engstruct.2024.118034" target="_blank" rel="noopener">
         Video comprehension-based approach for seismic damage recognition of freestanding non-structural components
       </a>
     </p>
@@ -243,14 +243,14 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 <div class="paper-box">
   <div class="paper-box-image">
     <div>
-      <video src="/images/AIC_21.mp4?v=2" autoplay muted loop playsinline aria-label="A deep learning approach for fast detection and classification of concrete damage"></video>
+      <video src="/images/AIC_21.mp4?v=2" poster="/images/AIC_21_poster.jpg" preload="none" muted loop playsinline aria-label="A deep learning approach for fast detection and classification of concrete damage"></video>
     </div>
   </div>
 
   <div class="paper-box-text">
 
     <p>
-      <a href="https://doi.org/10.1016/j.autcon.2021.103785">
+      <a href="https://doi.org/10.1016/j.autcon.2021.103785" target="_blank" rel="noopener">
         A deep learning approach for fast detection and classification of concrete damage
       </a>
     </p>
@@ -279,14 +279,14 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 <div class="paper-box">
   <div class="paper-box-image">
     <div>
-      <img src="/images/CACAIE23.png" alt="A method of concrete damage detection and localization based on weakly supervised learning" width="100%">
+      <img src="/images/CACAIE23.png" alt="A method of concrete damage detection and localization based on weakly supervised learning" width="1058" height="442" loading="lazy">
     </div>
   </div>
 
   <div class="paper-box-text">
 
     <p>
-      <a href="https://doi.org/10.1111/mice.13124">
+      <a href="https://doi.org/10.1111/mice.13124" target="_blank" rel="noopener">
         A method of concrete damage detection and localization based on weakly supervised learning
       </a>
     </p>
@@ -315,14 +315,14 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 <div class="paper-box">
   <div class="paper-box-image">
     <div>
-      <img src="/images/LSTM.png" alt="An adapted LSTM-DRRNet approach for predicting floor acceleration response spectrum" width="100%">
+      <img src="/images/LSTM.png" alt="An adapted LSTM-DRRNet approach for predicting floor acceleration response spectrum" width="953" height="336" loading="lazy">
     </div>
   </div>
 
   <div class="paper-box-text">
 
     <p>
-      <a href="https://doi.org/10.1016/j.engstruct.2023.116849">
+      <a href="https://doi.org/10.1016/j.engstruct.2023.116849" target="_blank" rel="noopener">
         An adapted LSTM-DRRNet approach for predicting floor acceleration response spectrum
       </a>
     </p>
@@ -353,14 +353,14 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
   <div class="paper-box-image">
     <div>
       <div class="badge badge--feature">🔥 ESI Highly Cited</div>
-      <img src="/images/EAAI.png" alt="Improved YOLOv8-GD deep learning model for defect detection in electroluminescence images of solar photovoltaic modules" width="100%">
+      <img src="/images/EAAI.png" alt="Improved YOLOv8-GD deep learning model for defect detection in electroluminescence images of solar photovoltaic modules" width="884" height="382" loading="lazy">
     </div>
   </div>
 
   <div class="paper-box-text">
 
     <p>
-      <a href="https://doi.org/10.1016/j.engappai.2024.107866">
+      <a href="https://doi.org/10.1016/j.engappai.2024.107866" target="_blank" rel="noopener">
         Improved YOLOv8-GD deep learning model for defect detection in electroluminescence images of solar photovoltaic modules
       </a>
     </p>
@@ -387,7 +387,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 </div>
 
 
-# 📜 Selective Patents
+## 📜 Selected Patents
 <ul class="timeline-list">
   <li><em>2026</em> "A Vision-based Seismic Damage Identification Method for Freestanding Non-structural Components." Chinese Invention Patent, No. ZL202211256985.5 (Authorized).</li>
   <li><em>2025</em> "Intelligent Seismic Damage Assessment Method for Buildings Based on Multimodal Large Language Models." Chinese Invention Patent, No. ZL202311278623.0 (Authorized).</li>
@@ -397,7 +397,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
   <li><em>2022</em> "Detection Method and System for Intelligent Traffic Electronic Prompting Devices Based on Multifeature Vision." Chinese Invention Patent, No. ZL202110769715.3 (Authorized).</li>
 </ul>
 
-# 🎖 Honors and Awards
+## 🎖 Honors and Awards
 <ul class="timeline-list">
   <li><em>2025</em> China Scholarship Council Scholarship for Joint Ph.D. Students (<strong>Fully Funded / National Level</strong>)</li>
   <li><em>2025</em> Nominee for the Young Elite Scientist Sponsorship Program (<strong>PhD Student Special Track</strong>)</li>
@@ -410,26 +410,26 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
   <li><em>2021</em> First Prize of Outstanding Graduate Achievement Award in Shandong Province (<strong>Top 3%</strong>)</li>
 </ul>
 
-# 🏆 Competitions
+## 🏆 Competitions
 <ul class="timeline-list">
-  <li><em>2025</em> National Second Prize, <a href="https://cpipc.acge.org.cn/cw/hp/2c90801795a92a850195d03b537b1bac" target="_blank"><strong>Inaugural China Graduate Intelligent Construction Innovation Competition</strong></a> — Intelligent Seismic Damage Identification and Assessment Technology for Buildings (<strong>Leader</strong>)</li>
-  <li><em>2021</em> Regional Third Prize (North China), <a href="https://cpipc.acge.org.cn/cw/hp/6" target="_blank"><strong>China Graduate Electronic Design Competition</strong></a> — Real-time Portable Concrete Defect Detection System based on YOLOv4 (<strong>Leader</strong>)</li>
+  <li><em>2025</em> National Second Prize, <a href="https://cpipc.acge.org.cn/cw/hp/2c90801795a92a850195d03b537b1bac" target="_blank" rel="noopener"><strong>1st China Postgraduate Intelligent Construction Innovation Competition</strong></a> — Intelligent Seismic Damage Identification and Assessment Technology for Buildings (<strong>Leader</strong>)</li>
+  <li><em>2021</em> Regional Third Prize (North China), <a href="https://cpipc.acge.org.cn/cw/hp/6" target="_blank" rel="noopener"><strong>China Graduate Electronic Design Competition</strong></a> — Real-time Portable Concrete Defect Detection System based on YOLOv4 (<strong>Leader</strong>)</li>
 </ul>
 
-# 💬 Invited Talks
+## 💬 Invited Talks
 <ul class="timeline-list">
   <li><em>2024.04</em> "A data-driven approach for estimating peak floor response based on damage of non-structural components." <em>The 4th International Conference on Vulnerability and Risk Analysis and Management (ICVRAM-ISUMA 2024)</em>, Tongji University, Shanghai, China.</li>
   <li><em>2023.05</em> "Video comprehension-based approach for seismic damage recognition of freestanding non-structural components." <em>The 3rd Academic Conference on Computational and Simulation Technologies in Civil Engineering</em>, Guangxi University, Nanning, China.</li>
 </ul>
 
-# 🤝 Conference Experience
+## 🤝 Conference Experience
 <ul class="timeline-list">
   <li><em>2024.12</em> <em>The 2nd Innovation Forum on Wind Disaster Mitigation and Wind Energy Utilization</em>, Chengdu, China — supported forum organization, participant guidance, and academic session assistance.</li>
   <li><em>2024.11</em> <em>The 14th China-Japan Structural Engineering Technology Exchange Conference</em>, Chengdu, China — assisted with conference organization, participant reception, and on-site coordination.</li>
   <li><em>2024.05</em> <em>The 10th Technical Exchange Conference on Seismic Retrofitting and Renovation</em> (Seismic Resistance and Disaster Prevention Branch, Architectural Society of China), Chengdu, China — supported attendee reception, venue coordination, and on-site assistance for technical sessions.</li>
 </ul>
 
-# 🚀 Projects
+## 🚀 Projects
 <ul class="timeline-list">
   <li><em>NSFC</em> Intelligent Recognition of Indoor Seismic Damage Characteristics and Building Resilience Assessment Based on Video Understanding — <strong><em>Key Researcher</em></strong></li>
   <li><em>NSFC</em> Mechanisms and Applications of Fiber Bragg Grating–Based Acoustic Emission Sensing for Concrete Durability Damage Monitoring — <strong><em>Key Researcher</em></strong></li>
@@ -439,7 +439,7 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
   <li><em>Provincial</em> Outstanding Young Innovation Team in Artificial Intelligence and Building Intelligence, Shandong Provincial Higher Education Institutions — <strong><em>Key Researcher</em></strong></li>
 </ul>
 
-# 🌍 Visitors
+## 🌍 Visitors
 <div class="visitors-strip">
   <span class="visitors-strip__label">Readers from around the world</span>
   <a href="https://info.flagcounter.com/aQmo" target="_blank" rel="noopener">

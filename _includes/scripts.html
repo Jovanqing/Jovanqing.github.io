@@ -13,4 +13,22 @@
     window.addEventListener('load', fit);
     fit();
   })();
+
+  /* Paper videos load nothing up front (poster + preload="none"): play only while near the viewport. */
+  (function () {
+    var vids = document.querySelectorAll('.paper-box video');
+    var each = function (fn) { Array.prototype.forEach.call(vids, fn); };
+    var play = function (v) { var p = v.play(); if (p && p.catch) p.catch(function () {}); };
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      each(function (v) { v.controls = true; });
+      return;
+    }
+    if (!('IntersectionObserver' in window)) { each(play); return; }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { play(e.target); } else { e.target.pause(); }
+      });
+    }, { rootMargin: '200px 0px' });
+    each(function (v) { io.observe(v); });
+  })();
 </script>

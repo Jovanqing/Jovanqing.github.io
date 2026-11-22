@@ -123,14 +123,11 @@ html, body {
   position: relative;
 }
 
-.page__content h1 {
+.page__content h1,
+.page__content h2 { // section headings are h2 (the only h1 is visually hidden)
   font-size: 1.85rem;
   padding-bottom: 0.45em;
   border-bottom: 1px solid var(--border);
-}
-
-.page__content h2 {
-  font-size: 1.4rem;
 }
 
 .page__content h3 {
