@@ -349,44 +349,6 @@ Email: <a href="mailto:yong.qingjiang@outlook.com">yong.qingjiang@outlook.com</a
 </div>
 
 
-<div class="paper-box">
-  <div class="paper-box-image">
-    <div>
-      <div class="badge badge--feature">🔥 ESI Highly Cited</div>
-      <img src="/images/EAAI.png" alt="Improved YOLOv8-GD deep learning model for defect detection in electroluminescence images of solar photovoltaic modules" width="884" height="382" loading="lazy">
-    </div>
-  </div>
-
-  <div class="paper-box-text">
-
-    <p>
-      <a href="https://doi.org/10.1016/j.engappai.2024.107866" target="_blank" rel="noopener">
-        Improved YOLOv8-GD deep learning model for defect detection in electroluminescence images of solar photovoltaic modules
-      </a>
-    </p>
-
-    <p>
-      Yukang Cao, Dandan Pang, Qianchuan Zhao, Yi Yan, <strong>Yongqing Jiang</strong>, Chongyi Tian, Fan Wang, Junlin Li
-    </p>
-
-    <p class="pub-venue"><em>Engineering Applications of Artificial Intelligence</em>, 2024</p>
-
-    <div class="journal-tags">
-      <span class="jtag jtag--top">SCI Q1 · Computer Science TOP</span>
-      <span class="jtag jtag--if">IF 9.0</span>
-      <span class="jtag jtag--if">CiteScore 72/570 · Artificial Intelligence</span>
-    </div>
-
-    <ul>
-      <li>
-        YOLOv8-GD, a lightweight photovoltaic defect detector (DW-Conv/GSConv backbone with BiFPN), cutting model size by 16.7% while improving mAP@0.5 by 4.2%.
-      </li>
-    </ul>
-
-  </div>
-</div>
-
-
 ## 📜 Selected Patents
 <ul class="timeline-list">
   <li><em>2026</em> "A Vision-based Seismic Damage Identification Method for Freestanding Non-structural Components." Chinese Invention Patent, No. ZL202211256985.5 (Authorized).</li>
